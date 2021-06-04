@@ -1,0 +1,167 @@
+\documentclass[11pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes}
+\usepackage{pgfmath}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\setlist{noitemsep}
+\usepackage{listings}
+\lstset{language=python}
+\usepackage{makeidx}
+\usepackage{verbatim}
+\usepackage{datetime}
+
+\setlength{\pdfpageheight}{11in}
+\setlength{\textheight}{9in}
+\setlength{\voffset}{-1in}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\marginparsep}{0pt}
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparpush}{0pt}
+\setlength{\textwidth}{6.5in}
+
+\pagestyle{plain}
+\makeindex
+
+\title{Weekly Report}
+\author{Brad Burkman}
+\newdateformat{vardate}{\THEDAY\ \monthname[\THEMONTH]\ \THEYEAR}
+\vardate
+\date{\today}
+
+\begin{document}
+\setlength{\parindent}{20pt}
+\begin{spacing}{1.2}
+\maketitle
+\tableofcontents
+
+
+\section{Accomplished Tasks}
+
+\begin{itemize}
+	\item Discarded articles before 2019, which was about half of them.
+	\item Thought about how to narrow focus on articles.  
+	\item Reviewed more articles.
+\end{itemize}
+
+\section{Questions}
+
+Should I focus on articles for which I can apply Dr. Sun's data set, ignoring articles based on techniques that require data we don't have?  Should I ignore these?
+
+\begin{itemize}
+	\item Using ML to analyze video of traffic
+	\item Using ML for real-time prediction of driving hazards
+	\item Data from sensors in individual vehicles
+	\item Data from simulations
+\end{itemize}
+
+\section{Future Direction}
+
+\begin{itemize}
+	\item The topic of {\it imbalanced learning} seems to be hot.  
+	\item ``Future work needs to propose proper methods to supplement these missing data and improve prediction performance.''
+\end{itemize}
+
+\section{Articles to Recommend}
+
+``A vehicle speed harmonization strategy for minimizing inter-vehicle crash risks.''
+
+In the last paragraphs, the authors say they are using reinforcement learning for their next step. 
+
+\
+
+``A deep learning based traffic crash severity prediction framework.''
+
+LSU faculty, similar dataset to what we have.  
+
+\
+
+``A systematic assessment of the use of opponent variables, data subsetting and hierarchical specification in two-party crash severity analysis.''
+
+Not ML, but a solid paper.  I'd look to this as a model of how to write well.  The conclusion suggests looking into imbalanced learning.
+
+\
+
+
+``A Bayesian modeling framework for crash severity effects of active traffic management systems.''
+
+Not ML, but interesting for recommending a comparison between econometric models and ML algorithms.  
+
+\
+
+``A spatiotemporal deep learning approach for citywide short-term crash risk prediction with multi-source data.''
+
+Does a comparison between econometric and ML models.
+
+\
+
+``A hierarchical machine learning classification approach for secondary task identification from observed driving behavior data.''
+
+Interesting in that it looked much more deeply at the data than other studies, looking for correlations between sets of variables.  Also LSU.
+
+\
+
+``A multivariate analysis of environmental effects on road accident occurrence using a balanced bagging approach''
+
+Interesting for handling imbalanced data
+
+\
+
+``A feature learning approach based on XGBoost for driving assessment and risk prediction''
+
+Interesting for its focus on ML methods, not on the dataset.  
+
+\
+
+``A long short-term memory-based framework for crash detection on freeways with traffic data of different temporal resolutions.''
+
+Related to our data and addressing the challenges we'll have with it.  
+
+\
+
+``A review of spatial approaches in road safety.''
+
+I need to read this one as an overview of the field and the jargon.  
+
+\
+
+``A Comprehensive Railroad-Highway Grade Crossing Consolidation Model: A Machine Learning Approach.''
+
+Thorough analysis.  Also LSU.
+
+\
+
+``A systematic review of the association between fault or blame-related attributions and procedures after transport injury and health and work-related outcomes''
+
+Interesting for text mining of crash reports.  
+
+\
+
+
+
+%%%%%%%%%%%%%%%%%%
+% Index
+\clearpage
+\addcontentsline{toc}{section}{Index}
+\printindex
+
+%%%%%%%%%%%%%%%%
+\end{spacing}
+\end{document}
+
+%%%%%%%%%%%%
+% Useful tools
+%%%%%%%%%
+
+\begin{lstlisting}
+Put your code here.
+\end{lstlisting}
+
+\lstinputlisting[language=python]{source_filename.py}
+
+

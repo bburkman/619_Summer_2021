@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Accomplishments This Week}{}% 1
+\BOOKMARK [1][-]{section.2}{Accuracy, Precision, Recall, Sensitivity, f1, False Alarm Rate}{}% 2
+\BOOKMARK [1][-]{section.3}{Big Idea: Limitations of Using Feature Selection Algorithms for Crash Data}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Test Data Set and Experiment}{section.3}% 4
+\BOOKMARK [1][-]{section.4}{Little Ideas}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{Train/Test Split for Imbalanced Data Set}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.2}{SMOTE: Synthetic Minority Oversampling TEchique}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.3}{Negative Samples}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.4}{More on Feature Selection}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.5}{Citing Sources for Common Knowledge}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{More Data Sources}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{California Statewide Integrated Traffic Records System \(SWITRS\)}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{Highway Safety Information System}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{Ideas, but not Good Ideas}{}% 14
+\BOOKMARK [2][-]{subsection.6.1}{Dangerous Drivers}{section.6}% 15
+\BOOKMARK [2][-]{subsection.6.2}{Google Maps Data?}{section.6}% 16
+\BOOKMARK [1][-]{section.7}{References}{}% 17

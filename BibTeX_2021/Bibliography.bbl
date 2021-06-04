@@ -1,0 +1,775 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{DAS2020105578}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e3335d465f8a2e4099a0d6fc6e6bc777}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Anik},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3383e5f6456751edbe9b0cca65cf6a6a}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Md\bibnamedelima Nasim},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=3c1828868627051bb4bcf9ebb5401617}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Mohamed\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e83a89e3203e0cbfbb894d23bcd0f48}
+      \strng{fullhash}{2e83a89e3203e0cbfbb894d23bcd0f48}
+      \strng{bibnamehash}{2e83a89e3203e0cbfbb894d23bcd0f48}
+      \strng{authorbibnamehash}{2e83a89e3203e0cbfbb894d23bcd0f48}
+      \strng{authornamehash}{2e83a89e3203e0cbfbb894d23bcd0f48}
+      \strng{authorfullhash}{2e83a89e3203e0cbfbb894d23bcd0f48}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lane change has been recognized as a challenging driving maneuver and a significant component of traffic safety research. Developing a real-time continuous lane change detection system can assist drivers to perform and deal with complex driving tasks or provide assistance when it is needed the most. This study proposed trajectory-level lane change detection models based on features from vehicle kinematics, machine vision, roadway characteristics, and driver demographics under different weather conditions. To develop the models, the SHRP2 Naturalistic Driving Study (NDS) and Roadway Information Database (RID) datasets were utilized. Initially, descriptive statistics were utilized to investigate the lane change behavior, which revealed significant differences among different weather conditions for most of the parameters. Six data fusion categories were introduced for the first time, considering different data availability. In order to select relevant features in each category, Boruta, a wrapper-based algorithm was employed. The lane change detection models were trained, validated, and comparatively evaluated using four Machine Learning algorithms including Random Forest (RF), Support Vector Machine (SVM), Artificial Neural Network (ANN), and eXtrem Gradient Boosting (XGBoost). The results revealed that the highest overall detection accuracy was found to be 95.9 \% using the XGBoost model when all the features were included in the model. Moreover, the highest overall detection accuracy of 81.9 \% using the RF model was achieved considering only vehicle kinematics-based features, indicating that the proposed model could be utilized when other data are not available. Furthermore, the analysis of the impact of weather conditions on lane change detection suggested that incorporating weather could improve the accuracy of lane change detection. In addition, the analysis of early lane change detection indicated that the proposed algorithm could predict the lane changes within 5 s before the vehicles cross the lane line. The developed detection models could be used to monitor and control driver behavior in a Cooperative Automated Vehicle environment.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Detecting lane change maneuvers using SHRP2 naturalistic driving data: A comparative study machine learning techniques}
+      \field{volume}{142}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{105578}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2020.105578
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457519315751
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457519315751
+      \endverb
+      \keyw{Lane change detection,Naturalistic driving study,Random Forest,Support vector machine,Artificial neural network,eXtrem gradient boosting,Connected vehicle}
+    \endentry
+    \entry{DING2018116}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b0041535057460f307565e1165a0451b}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Chuan},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f8faae13c3bf91ebbb77c1865513fbcd}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e3d1efb6dae53ebed433b7e39dc45be0}{%
+           family={Jiao},
+           familyi={J\bibinitperiod},
+           given={Junfeng},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a94a05e71ca3730cf99adf58f742e7da}
+      \strng{fullhash}{a94a05e71ca3730cf99adf58f742e7da}
+      \strng{bibnamehash}{a94a05e71ca3730cf99adf58f742e7da}
+      \strng{authorbibnamehash}{a94a05e71ca3730cf99adf58f742e7da}
+      \strng{authornamehash}{a94a05e71ca3730cf99adf58f742e7da}
+      \strng{authorfullhash}{a94a05e71ca3730cf99adf58f742e7da}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although a growing body of literature focuses on the relationship between the built environment and pedestrian crashes, limited evidence is provided about the relative importance of many built environment attributes by accounting for their mutual interaction effects and their non-linear effects on automobile-involved pedestrian crashes. This study adopts the approach of Multiple Additive Poisson Regression Trees (MAPRT) to fill such gaps using pedestrian collision data collected from Seattle, Washington. Traffic analysis zones are chosen as the analytical unit. The effects of various factors on pedestrian crash frequency investigated include characteristics the of road network, street elements, land use patterns, and traffic demand. Density and the degree of mixed land use have major effects on pedestrian crash frequency, accounting for approximately 66\% of the effects in total. More importantly, some factors show clear non-linear relationships with pedestrian crash frequency, challenging the linearity assumption commonly used in existing studies which employ statistical models. With various accurately identified non-linear relationships between the built environment and pedestrian crashes, this study suggests local agencies to adopt geo-spatial differentiated policies to establish a safe walking environment. These findings, especially the effective ranges of the built environment, provide evidence to support for transport and land use planning, policy recommendations, and road safety programs.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Non-linear effects of the built environment on automobile-involved pedestrian crash frequency: A machine learning approach}
+      \field{volume}{112}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{116\bibrangedash 126}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2017.12.026
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457517304724
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457517304724
+      \endverb
+      \keyw{Pedestrian crash frequency,Built environment,Machine learning,Variable importance,Non-linear effects}
+    \endentry
+    \entry{GOH201877}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ff70d3833f003183f5ee3c1bb87d9b90}{%
+           family={Goh},
+           familyi={G\bibinitperiod},
+           given={Yang\bibnamedelima Miang},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=800687de4541ba9263c04d0e0958474c}{%
+           family={Ubeynarayana},
+           familyi={U\bibinitperiod},
+           given={Chalani\bibnamedelima U.},
+           giveni={C\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+        {{hash=d95fb3fc1d7d137456c34c59063ce58c}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Karen\bibnamedelimb Le\bibnamedelima Xin},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=672a37364fe9d1414cdb750a0ddd858d}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Brian\bibnamedelima H.W.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{05029f9d4d8ba6eb10238ae5f18ac89a}
+      \strng{fullhash}{ef0ce40e141d1b88882321afa1906a2d}
+      \strng{bibnamehash}{05029f9d4d8ba6eb10238ae5f18ac89a}
+      \strng{authorbibnamehash}{05029f9d4d8ba6eb10238ae5f18ac89a}
+      \strng{authornamehash}{05029f9d4d8ba6eb10238ae5f18ac89a}
+      \strng{authorfullhash}{ef0ce40e141d1b88882321afa1906a2d}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Despite its potential, the use of machine learning in safety studies had been limited. Considering machine learning’s advantage in predictive accuracy, this study used a supervised learning approach to evaluate the relative importance of different cognitive factors within the Theory of Reasoned Action (TRA) in influencing safety behavior. Data were collected from 80 workers in a tunnel construction project using a TRA-based questionnaire. At the same time, behavior-based safety (BBS) observation data, \% unsafe behavior, was collected. Subsequently, with the TRA cognitive factors as the input attributes, six widely-used machine learning algorithms and logistic regression were used to develop models to predict \% unsafe behavior. The receiver operating characteristic (ROC) curves show that decision tree provides the best prediction. It was found that intention and social norms have the biggest influence on whether a worker was observed to work safely or not. Thus, managers aiming to improve safety behaviors need to pay specific attention to social norms in the worksite. The study also showed that a TRA survey can be used to extend a BBS to facilitate more effective interventions. Lastly, the study showed that machine learning algorithms provide an alternative approach for analyzing the relationship between the cognitive factors and behavioral data.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Factors influencing unsafe behaviors: A supervised learning approach}
+      \field{volume}{118}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{77\bibrangedash 85}
+      \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2018.06.002
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457518302173
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457518302173
+      \endverb
+      \keyw{Theory of reasoned action,Safety behavior,Construction safety,Working at height,Machine learning}
+    \endentry
+    \entry{HUGHES2019289}{article}{}
+      \name{author}{4}{}{%
+        {{hash=72a7dc89b44e12e1e86fd6dfd6012910}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={Sebastián},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4aaa42d03b19321655bbf3ab2de38d73}{%
+           family={Moreno},
+           familyi={M\bibinitperiod},
+           given={Sebastián},
+           giveni={S\bibinitperiod}}}%
+        {{hash=88ab509d107773559ce959ab659d3880}{%
+           family={Yushimito},
+           familyi={Y\bibinitperiod},
+           given={Wilfredo\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=a2e47f259dcc804445f25f2589c6c8b7}{%
+           family={Huerta-Cánepa},
+           familyi={H\bibinithyphendelim C\bibinitperiod},
+           given={Gonzalo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9decab9996451f60e360825dec2d90d6}
+      \strng{fullhash}{6d784211816df8b1ceafd69b8e53d046}
+      \strng{bibnamehash}{9decab9996451f60e360825dec2d90d6}
+      \strng{authorbibnamehash}{9decab9996451f60e360825dec2d90d6}
+      \strng{authornamehash}{9decab9996451f60e360825dec2d90d6}
+      \strng{authorfullhash}{6d784211816df8b1ceafd69b8e53d046}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In last mile distribution, logistics companies typically arrange and plan their routes based on broad estimates of stop delivery times (i.e., the time spent at each stop to deliver goods to final receivers). If these estimates are not accurate, the level of service is degraded, as the promised time window may not be satisfied. The purpose of this work is to assess the feasibility of machine learning techniques to predict stop delivery times. This is done by testing a wide range of machine learning techniques (including different types of ensembles) to (1) predict the stop delivery time and (2) to determine whether the total stop delivery time will exceed a predefined time threshold (classification approach). For the assessment, all models are trained using information generated from GPS data collected in Medellín, Colombia and compared to hazard duration models. The results are threefold. First, the assessment shows that regression-based machine learning approaches are not better than conventional hazard duration models concerning absolute errors of the prediction of the stop delivery times. Second, when the problem is addressed by a classification scheme in which the prediction is aimed to guide whether a stop time will exceed a predefined time, a basic K-nearest-neighbor model outperforms hazard duration models and other machine learning techniques both in accuracy and F1 score (harmonic mean between precision and recall). Third, the prediction of the exact duration can be improved by combining the classifiers and prediction models or hazard duration models in a two level scheme (first classification then prediction). However, the improvement depends largely on the correct classification (first level).}
+      \field{issn}{0968-090X}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{Evaluation of machine learning methodologies to predict stop delivery times from GPS data}
+      \field{volume}{109}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{289\bibrangedash 304}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.trc.2019.10.018
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X18314645
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X18314645
+      \endverb
+      \keyw{Machine learning,Stop delivery time,Classification,Regression,Hazard duration,GPS}
+    \endentry
+    \entry{IJAZ2021106094}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fe3e350092fce872664238a2bb320a4e}{%
+           family={Ijaz},
+           familyi={I\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2bbe8553436be2aace3e6b222714ac76}{%
+           family={lan},
+           familyi={l\bibinitperiod},
+           given={Liu},
+           giveni={L\bibinitperiod}}}%
+        {{hash=25223efe22ca4fa4b52d2baee2a38eee}{%
+           family={Zahid},
+           familyi={Z\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=846084edfafd364979dc5de407ba916a}{%
+           family={Jamal},
+           familyi={J\bibinitperiod},
+           given={Arshad},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0b998b0f3b3cbf2dad7efe104d2a744}
+      \strng{fullhash}{478b94ba47abd4d7e69c86e433f2f2c2}
+      \strng{bibnamehash}{d0b998b0f3b3cbf2dad7efe104d2a744}
+      \strng{authorbibnamehash}{d0b998b0f3b3cbf2dad7efe104d2a744}
+      \strng{authornamehash}{d0b998b0f3b3cbf2dad7efe104d2a744}
+      \strng{authorfullhash}{478b94ba47abd4d7e69c86e433f2f2c2}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Motorcycles and motorcyclists have a variety of attributes that have been found to be a potential contributor to the high liability of vulnerable road users (VRUs). Vulnerable Road Users (VRUs) that include pedestrians, bicyclists, cycle-rickshaw occupants, and motorcyclists constitute by far the highest share of road traffic accidents in developing countries. Motorized three-wheeled Rickshaws (3W-MR) is a popular public transport mode in almost all Pakistani cities and is used primarily for short trips to carry passengers and small-scale goods movement. Despite being an important mode of public transport in the developing world, little work has been done to understand the factors affecting the injury severity of three-wheeled motorized vehicles. Crash injury severity prediction is a promising research target in traffic safety. Traditional statistical models have underlying assumptions and predefined associations, which can yield misleading results if flouted. Machine learning(ML) is an emerging non-parametric method that can effectively capture the non-linear effects of both continuous and discrete variables without prior assumptions and achieve better prediction accuracy. This research analyzed injury severity of three-wheeled motorized rickshaws (3W-MR) using various machine learning-based identification algorithms, i.e., Decision jungle (DJ), Random Forest (RF), and Decision Tree (DT). Three years of crash data (from 2017 to 2019) was collected from Provincial Emergency Response Service RESCUE 1122 for Rawalpindi city, Pakistan. A total of 2,743 3W-MR crashes were reported during the study period that resulted in 258 fatalities. The predictive performance of proposed ML models was assessed using several evaluation metrics such as overall accuracy, macro-average precision, macro-average recall, and geometric means of individual class accuracies. Results revealed that DJ with an overall accuracy of 83.7 \% outperformed the DT and RF-based on a stratified 10-fold cross-validation approach. Finally, Spearman correlation analysis showed that factors such as the lighting condition, crashes involving young drivers (aged 20–30 years), facilities with high-speed limits (over 60 mph), weekday, off-peak, and shiny weather conditions were more likely to worsen injury severity of 3W-MR crashes. The outcomes of this study could provide necessary and essential guidance to road safety agencies, particularly in the study area, for proactive implementation of appropriate countermeasures to curb road safety issues pertaining to three-wheeled motorized vehicles.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{A comparative study of machine learning classifiers for injury severity prediction of crashes involving three-wheeled motorized rickshaw}
+      \field{volume}{154}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{106094}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2021.106094
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521001251
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521001251
+      \endverb
+      \keyw{Three-wheeled motorized rickshaws,Crash severity,Machine learning (ML),Rawalpindi}
+    \endentry
+    \entry{KUSKAPAN2021106098}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e4eb050dedc202e2cc5938dc7c58c678}{%
+           family={Kuşkapan},
+           familyi={K\bibinitperiod},
+           given={Emre},
+           giveni={E\bibinitperiod}}}%
+        {{hash=be086e162e7fa51d9476d1ef922e4581}{%
+           family={Çodur},
+           familyi={Ç\bibinitperiod},
+           given={M.\bibnamedelimi Yasin},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=4e585ea014fbacc2dba424a288181b22}{%
+           family={Atalay},
+           familyi={A\bibinitperiod},
+           given={Ahmet},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc9811c9674380887af4699af2ea0f80}
+      \strng{fullhash}{fc9811c9674380887af4699af2ea0f80}
+      \strng{bibnamehash}{fc9811c9674380887af4699af2ea0f80}
+      \strng{authorbibnamehash}{fc9811c9674380887af4699af2ea0f80}
+      \strng{authornamehash}{fc9811c9674380887af4699af2ea0f80}
+      \strng{authorfullhash}{fc9811c9674380887af4699af2ea0f80}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With the development of technology in the world, vehicles that reach high speeds are produced. In addition, with the increase of road width and quality, faster and more comfortable transportation can be provided. These developments also increase the speed violation rates of road vehicles. Drivers who violate speed limits can endanger both their own lives and the lives of others. Speed violations, of especially heavy vehicles, involve much greater risks than that of light vehicles. Heavy vehicles can cause more serious losses of lives and property in accidents, compared to the ones caused by light vehicles, as they can carry much more freight or passengers than light vehicles. In this study, data regarding the speed violations committed by heavy vehicles in Turkey, were used. Speed violations were divided into 10 classes according to the intensity of speed violation rates. After this process, all provinces were classified according to support vector machines (SVM), naive bayes (NB) and k-nearest neighbors (KNN) algorithms. When the accuracy values and error scales of all three algorithms are examined, it has been determined that the algorithm that gives the most accurate results is the NB algorithm. Based on the classification of this algorithm, speed violation density maps of types of heavy vehicles in Turkey were created by using spatial analysis. According to the density maps, the provinces with the highest speed violations were identified. In the results, it was determined that the rate of heavy vehicle speed violation was highest in the cities such as Erzurum, Konya, and Muğla. Later, these cities were examined in terms of heavy vehicle mobility. At the end of this study, measures were proposed to reduce these violations in cities where speeding violations are intense. Material and moral damages can be prevented, to a great extent, with the implementation of recommendations of policymakers which can reduce speed violations.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Speed violation analysis of heavy vehicles on highways using spatial analysis and machine learning algorithms}
+      \field{volume}{155}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{106098}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2021.106098
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521001299
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521001299
+      \endverb
+      \keyw{Heavy vehicles,Speed violation,Machine learning,Spatial analysis}
+    \endentry
+    \entry{MAHMOUD2021102930}{article}{}
+      \name{author}{4}{}{%
+        {{hash=45231d1fdf30a1fdc16ebb77ce13c426}{%
+           family={Mahmoud},
+           familyi={M\bibinitperiod},
+           given={Nada},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1f13dd2f79f10cde9b4d4d55fc2aa404}{%
+           family={Abdel-Aty},
+           familyi={A\bibinithyphendelim A\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0b3e2e0da9630bde03b20096a87d5d2b}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=979899412290978c3ce1a60907ee22e6}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Jinghui},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{05dc1b1613088f5b6109ee221ffa970d}
+      \strng{fullhash}{a0e27fcffd6ed040f373ee4d8dc474f1}
+      \strng{bibnamehash}{05dc1b1613088f5b6109ee221ffa970d}
+      \strng{authorbibnamehash}{05dc1b1613088f5b6109ee221ffa970d}
+      \strng{authornamehash}{05dc1b1613088f5b6109ee221ffa970d}
+      \strng{authorfullhash}{a0e27fcffd6ed040f373ee4d8dc474f1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Predicting accurate traffic parameters is fundamental and cost-effective in providing traffic applications with required information. Many studies adopted various parametric and machine learning techniques to predict traffic parameters such as travel time, speed, and traffic volume. Machine learning techniques have achieved promising results in predicting traffic volume. However, the utilized data were mostly aggregated in 5, 10, or 15 min. This study attempts to bridge the research gap by predicting signal cycle-level through and left-turn movements in real-time at signalized intersections. The utilized data were limited to the upstream and downstream intersections at the corridor level. Aiming to achieve this objective, eXtreme Gradient Boosting (XGBoost), Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) models were developed using datsets that contain variables from different number of utilized cycles (4, 6, and 8 cycles). The three models were evaluated by calculating Mean Absolute Error (MAE) and Root Mean Square Error (RMSE). The results showed that the performance measures for the three models were close. Meanwhile. the GRU model using variables from six previous cycles outperformed the others. This modelling approach was followed to predict traffic movements for different time horizons (five cycles ahead). The performance measures values were close for the five predicted cycles. It is expected that the model could help in obtaining accurate traffic movement at intersections, which could be used for adjusting adaptive signal timing and improve signal and intersections’ efficiency.}
+      \field{issn}{0968-090X}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{Predicting cycle-level traffic movements at signalized intersections using machine learning models}
+      \field{volume}{124}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{102930}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.trc.2020.102930
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X20308299
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X20308299
+      \endverb
+      \keyw{Cycle-level,Deep learning,Machine learning,Traffic prediction,Turning movement counts}
+    \endentry
+    \entry{MARUCCIWELLMAN2017359}{article}{}
+      \name{author}{3}{}{%
+        {{hash=654879d87355d74fee6908e3d33bcdc6}{%
+           family={Marucci-Wellman},
+           familyi={M\bibinithyphendelim W\bibinitperiod},
+           given={Helen\bibnamedelima R.},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=db0a5f52bc78a9529b37738613abc3d5}{%
+           family={Corns},
+           familyi={C\bibinitperiod},
+           given={Helen\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=4a1073dcc994f2f9560211ee430918b4}{%
+           family={Lehto},
+           familyi={L\bibinitperiod},
+           given={Mark\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5ade253f5c03208ef53efbcec371bcb}
+      \strng{fullhash}{f5ade253f5c03208ef53efbcec371bcb}
+      \strng{bibnamehash}{f5ade253f5c03208ef53efbcec371bcb}
+      \strng{authorbibnamehash}{f5ade253f5c03208ef53efbcec371bcb}
+      \strng{authornamehash}{f5ade253f5c03208ef53efbcec371bcb}
+      \strng{authorfullhash}{f5ade253f5c03208ef53efbcec371bcb}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Injury narratives are now available real time and include useful information for injury surveillance and prevention. However, manual classification of the cause or events leading to injury found in large batches of narratives, such as workers compensation claims databases, can be prohibitive. In this study we compare the utility of four machine learning algorithms (Naïve Bayes, Single word and Bi-gram models, Support Vector Machine and Logistic Regression) for classifying narratives into Bureau of Labor Statistics Occupational Injury and Illness event leading to injury classifications for a large workers compensation database. These algorithms are known to do well classifying narrative text and are fairly easy to implement with off-the-shelf software packages such as Python. We propose human-machine learning ensemble approaches which maximize the power and accuracy of the algorithms for machine-assigned codes and allow for strategic filtering of rare, emerging or ambiguous narratives for manual review. We compare human-machine approaches based on filtering on the prediction strength of the classifier vs. agreement between algorithms. Regularized Logistic Regression (LR) was the best performing algorithm alone. Using this algorithm and filtering out the bottom 30\% of predictions for manual review resulted in high accuracy (overall sensitivity/positive predictive value of 0.89) of the final machine-human coded dataset. The best pairings of algorithms included Naïve Bayes with Support Vector Machine whereby the triple ensemble NBSW=NBBI-GRAM=SVM had very high performance (0.93 overall sensitivity/positive predictive value and high accuracy (i.e. high sensitivity and positive predictive values)) across both large and small categories leaving 41\% of the narratives for manual review. Integrating LR into this ensemble mix improved performance only slightly. For large administrative datasets we propose incorporation of methods based on human-machine pairings such as we have done here, utilizing readily-available off-the-shelf machine learning techniques and resulting in only a fraction of narratives that require manual review. Human-machine ensemble methods are likely to improve performance over total manual coding.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Classifying injury narratives of large administrative databases for surveillance—A practical approach combining machine learning ensembles and human review}
+      \field{volume}{98}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{359\bibrangedash 371}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2016.10.014
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S000145751630375X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S000145751630375X
+      \endverb
+      \keyw{Injury,Narrative text,Injury surveillance,Cause of injury,Machine learning}
+    \endentry
+    \entry{MOHAMMADNAZAR2021102917}{article}{}
+      \name{author}{3}{}{%
+        {{hash=76177d46d0b4672e642d0ad8dedf87de}{%
+           family={Mohammadnazar},
+           familyi={M\bibinitperiod},
+           given={Amin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=48a5866f28712a11f8d639866159b9b3}{%
+           family={Arvin},
+           familyi={A\bibinitperiod},
+           given={Ramin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b330ae8501ab7306e7b8019636cd27da}{%
+           family={Khattak},
+           familyi={K\bibinitperiod},
+           given={Asad\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{67d0f2a2dacaf69061da7dfc71e1a402}
+      \strng{fullhash}{67d0f2a2dacaf69061da7dfc71e1a402}
+      \strng{bibnamehash}{67d0f2a2dacaf69061da7dfc71e1a402}
+      \strng{authorbibnamehash}{67d0f2a2dacaf69061da7dfc71e1a402}
+      \strng{authornamehash}{67d0f2a2dacaf69061da7dfc71e1a402}
+      \strng{authorfullhash}{67d0f2a2dacaf69061da7dfc71e1a402}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Driving style can substantially impact mobility, safety, energy consumption, and vehicle emissions. While a range of methods has been used in the past for driving style classification, the emergence of connected vehicles equipped with communication devices provides a new opportunity to classify driving style using high-resolution (10 Hz) microscopic real-world data. In this study, location-based big data and machine learning are used to classify driving styles ranging from aggressive to calm. This classification can be used to customize driver assistance systems, assess mobility, crash risk, fuel consumption, and emissions. This study’s main objective is to develop a framework that harnesses Basic Safety Messages (BSMs) generated by connected vehicles to quantify instantaneous driving behavior and classify driving styles in different spatial contexts using unsupervised machine learning methods. To this end, a subset of the Safety Pilot Model Deployment (SPMD) with more than 27 million BSM observations generated by more than 1300 individuals making trips on diverse roadways and through several neighborhoods in Ann Arbor, Michigan, were processed and analyzed. To quantify driving style, the concept of temporal driving volatility, as a surrogate safety measure of unsafe driving behavior, was utilized and applied to vehicle kinematics, i.e., observed speeds and longitudinal/lateral accelerations. Specifically, six volatility measures are extracted and used for classifying drivers. K-means and K-medoids methods are applied for grouping drivers in aggressive, normal, and calm clusters. Clustering results indicate that not only does driving style vary among drivers, but the thresholds for aggressive and calm driving vary across different roadway types due to variations in environment and road conditions. The proportion of aggressive driving styles was also higher on commercial streets than on highways and residential streets. Notably, we propose a Driving Score to measure driving performance consistently across drivers.}
+      \field{issn}{0968-090X}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{Classifying travelers' driving style using basic safety messages generated by connected vehicles: Application of unsupervised machine learning}
+      \field{volume}{122}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{102917}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.trc.2020.102917
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X20308160
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X20308160
+      \endverb
+      \keyw{Driving style classification,Unsupervised machine learning,Big data,Location-based services,Connected vehicles,Basic safety message}
+    \endentry
+    \entry{RAHIM2021106090}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1c9a82a7609e5d3faa48aa61f352af2a}{%
+           family={Rahim},
+           familyi={R\bibinitperiod},
+           given={Md\bibnamedelima Adilur},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5aaaf0d3d39c75dc58d99db5499bca59}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Hany\bibnamedelima M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \strng{fullhash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \strng{bibnamehash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \strng{authorbibnamehash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \strng{authornamehash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \strng{authorfullhash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Highway work zones are most vulnerable roadway segments for congestion and traffic collisions. Hence, providing accurate and timely prediction of the severity of traffic collisions at work zones is vital to reduce the response time for emergency units (e.g., medical aid), accordingly improve traffic safety and reduce congestion. In predicting the severity of traffic collisions, previous studies used different statistical and machine learning models with accuracy as the main evaluating factor. However, the performance of these models was generally not good, especially on fatal and injury crashes. Also, looking into the prediction accuracy only is misleading. This paper aims to propose a novel deep learning-based approach with a customized f1-loss function to predict the severity of traffic crashes. Underlying this objective is to compare the results of deep learning models with machine learning model considering two performance indicators, namely precision, and recall. The data used in the analysis include a sample of traffic crashes that occurred at work zones in Louisiana from 2014 to 2018. This dataset includes valuable information (features) related to road, vehicle, and human factors affecting the occurrence and severity of those crashes. The proposed methodology is based on transforming these features/variables into images. Image transformation is conducted using a nonlinear dimensionality reduction technique t-SNE and convex hull algorithm. A CNN based deep learning algorithm with a customized loss function was used to directly optimize the model for precision and recall. The results showed improved performance in predicting the crash severity of fatal and injury crashes using the deep learning approach, which can help to improve traffic safety as well as traffic congestion at work zones and possibly other roadways segments.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{A deep learning based traffic crash severity prediction framework}
+      \field{volume}{154}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{106090}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2021.106090
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521001214
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521001214
+      \endverb
+      \keyw{Traffic collision/accident severity,Deep learning,Transfer learning,Numeric to image transformation,Customized loss function}
+    \endentry
+    \entry{SOLEIMANI2021105985}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dfa7f9ade6df804aa0201f0b5df49889}{%
+           family={Soleimani},
+           familyi={S\bibinitperiod},
+           given={Samira},
+           giveni={S\bibinitperiod}}}%
+        {{hash=62df1a137c9dc706a532020ab33d4567}{%
+           family={Leitner},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=98b98f7fca95a1e190ebd76d7bd40bca}{%
+           family={Codjoe},
+           familyi={C\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{df85613a39ebf35c4d4732836739d876}
+      \strng{fullhash}{df85613a39ebf35c4d4732836739d876}
+      \strng{bibnamehash}{df85613a39ebf35c4d4732836739d876}
+      \strng{authorbibnamehash}{df85613a39ebf35c4d4732836739d876}
+      \strng{authornamehash}{df85613a39ebf35c4d4732836739d876}
+      \strng{authorfullhash}{df85613a39ebf35c4d4732836739d876}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The consolidation of Highway-Railroad Grade Crossing (HRGC) is one of the effective approaches to decrease the number of crashes between trains and vehicles. From 2015–2019, there were 57 HRGC crashes at crossings in East Baton Rouge Parish (EBRP), resulting in thirteen injuries with $346,875 cost of vehicle damages. Consolidation programs help to close redundant crossings and thereby decrease the crash risks; however, it is difficult to find the best crossing in a neighborhood for closure. In our previous research working on HRGC consolidation models in 2019, from among four Machine Learning algorithms, eXtreme Gradient Boosting (XGboost) performed better in HRGC prediction models. In continuation of our previous studies on developing a HRGC prediction model, this research employed Text Mining Techniques, and Geospatial Analysis in addition to the XGboost Machine Learning algorithm. The aim was to develop a consolidation model that is customized for local implementation. The results indicated an overall accuracy of 88 \% for the proposed model. The relative importance of the variables input to the model was also reported and offers an in-depth understanding of the model’s behavior. Considering the different correlation threshold, a sensitivity analysis was also performed on different aggregation gain values. Subsequently, it resulted in the development of a simplified model utilizing 14 variables, with aggregated gain values of 95 \% and a correlation threshold of 0.5. Based on this model, 15 \% of current highway-rail grade crossings should be closed.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Applying machine learning, text mining, and spatial analysis techniques to develop a highway-railroad grade crossing consolidation model}
+      \field{volume}{152}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{105985}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2021.105985
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521000166
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521000166
+      \endverb
+      \keyw{Highway-rail grade crossing consolidation,Spatial analysis,Machine learning,Text mining}
+    \endentry
+    \entry{VALLMUUR201541}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ed50864670b115a93476e6f3fde570f4}{%
+           family={Vallmuur},
+           familyi={V\bibinitperiod},
+           given={Kirsten},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed50864670b115a93476e6f3fde570f4}
+      \strng{fullhash}{ed50864670b115a93476e6f3fde570f4}
+      \strng{bibnamehash}{ed50864670b115a93476e6f3fde570f4}
+      \strng{authorbibnamehash}{ed50864670b115a93476e6f3fde570f4}
+      \strng{authornamehash}{ed50864670b115a93476e6f3fde570f4}
+      \strng{authorfullhash}{ed50864670b115a93476e6f3fde570f4}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objective To synthesise recent research on the use of machine learning approaches to mining textual injury surveillance data. Design Systematic review. Data sources The electronic databases which were searched included PubMed, Cinahl, Medline, Google Scholar, and Proquest. The bibliography of all relevant articles was examined and associated articles were identified using a snowballing technique. Selection criteria For inclusion, articles were required to meet the following criteria: (a) used a health-related database, (b) focused on injury-related cases, AND used machine learning approaches to analyse textual data. Methods The papers identified through the search were screened resulting in 16 papers selected for review. Articles were reviewed to describe the databases and methodology used, the strength and limitations of different techniques, and quality assurance approaches used. Due to heterogeneity between studies meta-analysis was not performed. Results Occupational injuries were the focus of half of the machine learning studies and the most common methods described were Bayesian probability or Bayesian network based methods to either predict injury categories or extract common injury scenarios. Models were evaluated through either comparison with gold standard data or content expert evaluation or statistical measures of quality. Machine learning was found to provide high precision and accuracy when predicting a small number of categories, was valuable for visualisation of injury patterns and prediction of future outcomes. However, difficulties related to generalizability, source data quality, complexity of models and integration of content and technical knowledge were discussed. Conclusions The use of narrative text for injury surveillance has grown in popularity, complexity and quality over recent years. With advances in data mining techniques, increased capacity for analysis of large databases, and involvement of computer scientists in the injury prevention field, along with more comprehensive use and description of quality assurance methods in text mining approaches, it is likely that we will see a continued growth and advancement in knowledge of text mining in the injury field.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Machine learning approaches to analysing textual injury surveillance data: A systematic review}
+      \field{volume}{79}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{41\bibrangedash 49}
+      \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2015.03.018
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457515000925
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457515000925
+      \endverb
+      \keyw{Text data,Injury surveillance,Injury epidemiology,Text mining,Machine learning}
+    \endentry
+    \entry{VANDERWALL2020105822}{article}{}
+      \name{author}{7}{}{%
+        {{hash=92f93f890b694fc2ba218d1fe2ec7e83}{%
+           family={{van der Wall}},
+           familyi={v\bibinitperiod},
+           given={H.E.C.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8c72684e583eb4f205c87cf805382a20}{%
+           family={Doll},
+           familyi={D\bibinitperiod},
+           given={R.J.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b2a9297d19893d0732913768711a42ba}{%
+           family={{van Westen}},
+           familyi={v\bibinitperiod},
+           given={G.J.P.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bcff8eed35f0968531f014d0f0e1ae65}{%
+           family={Koopmans},
+           familyi={K\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=07c0a6a2f5908e7ec016c749c8f2d97a}{%
+           family={Zuiker},
+           familyi={Z\bibinitperiod},
+           given={R.G.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f3196a70373a1ca530a70d570fda0b04}{%
+           family={Burggraaf},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e76ddfce14f1b7bba376cd89e0ad9d70}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={A.F.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e633d478e9de8e936da668b6e4c4a7b}
+      \strng{fullhash}{b0b75331b3a431299f3bb00f12b95822}
+      \strng{bibnamehash}{4e633d478e9de8e936da668b6e4c4a7b}
+      \strng{authorbibnamehash}{4e633d478e9de8e936da668b6e4c4a7b}
+      \strng{authornamehash}{4e633d478e9de8e936da668b6e4c4a7b}
+      \strng{authorfullhash}{b0b75331b3a431299f3bb00f12b95822}
+      \field{sortinit}{v}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Rationale Car-driving performance is negatively affected by the intake of alcohol, tranquillizers, sedatives and sleep deprivation. Although several studies have shown that the standard deviation of the lateral position on the road (SDLP) is sensitive to drug-induced changes in simulated and real driving performance tests, this parameter alone might not fully assess and quantify deviant or unsafe driving. Objective Using machine learning we investigated if including multiple simulator-derived parameters, rather than the SDLP alone would provide a more accurate assessment of the effect of substances affecting driving performance. We specifically analysed the effects of alcohol and alprazolam. Methods The data used in the present study were collected during a previous study on driving effects of alcohol and alprazolam in 24 healthy subjects (12 M, 12 F, mean age 26 years, range 20–43 years). Various driving features, such as speed and steering variations, were quantified and the influence of administration of alcohol or alprazolam was assessed to assist in designing a predictive model for abnormal driving behaviour. Results Adding additional features besides the SDLP increased the model performance for prediction of drug-induced abnormal driving behaviour (from an accuracy of 65 \%–83 \% after alprazolam intake and from 50 \% to 76 \% after alcohol ingestion). Driving behaviour influenced by alcohol and alprazolam was characterised by different feature importance, indicating that the two interventions influenced driving behaviour in a different way. Conclusion Machine learning using multiple driving features in addition to the state-of-the-art SDLP improves the assessment of drug-induced abnormal driving behaviour. The created models may facilitate quantitative description of abnormal driving behaviour in the development and application of psychopharmacological medicines. Our models require further validation using similar and unknown interventions.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{The use of machine learning improves the assessment of drug-induced driving behaviour}
+      \field{volume}{148}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{105822}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2020.105822
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457520316420
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457520316420
+      \endverb
+      \keyw{Safety,Machine learning,Automobile driving,Driving under the influence}
+    \endentry
+    \entry{WU2021105910}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e1ed0ff26bc657f9df33923a5392ba05}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yuan-Wei},
+           giveni={Y\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=06db1f93090c9ab38e3555df98978e64}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Tien-Pen},
+           giveni={T\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{420f088a499591c79809a3dc87f7e0d5}
+      \strng{fullhash}{420f088a499591c79809a3dc87f7e0d5}
+      \strng{bibnamehash}{420f088a499591c79809a3dc87f7e0d5}
+      \strng{authorbibnamehash}{420f088a499591c79809a3dc87f7e0d5}
+      \strng{authornamehash}{420f088a499591c79809a3dc87f7e0d5}
+      \strng{authorfullhash}{420f088a499591c79809a3dc87f7e0d5}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Traffic violations and improper driving are behaviors that primarily contribute to traffic crashes. This study aimed to develop effective approaches for predicting at-fault crash driver frequency using only city-level traffic enforcement predictors. A fusion deep learning approach combining a convolution neural network (CNN) and gated recurrent units (GRU) was developed to compare predictive performance with one econometric approach, two machine learning approaches, and another deep learning approach. The performance comparison was conducted for (1) at-fault crash driver frequency prediction tasks and (2) city-level crash risk prediction tasks. The proposed CNN-GRU achieved remarkable prediction accuracy and outperformed other approaches, while the other approaches also exhibited excellent performances. The results suggest that effective prediction approaches and appropriate traffic safety measures can be developed by considering both crash frequency and crash risk prediction tasks. In addition, the accumulated local effects (ALE) plot was utilized to investigate the contribution of each traffic enforcement activity on traffic safety in a scenario of multicollinearity among predictors. The ALE plot illustrated a complex nonlinear relationship between traffic enforcement predictors and the response variable. These findings can facilitate the development of traffic safety measures and serve as a good foundation for further investigations and utilization of traffic violation data.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Mid-term prediction of at-fault crash driver frequency using fusion deep learning with city-level traffic violation data}
+      \field{volume}{150}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{105910}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2020.105910
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457520317309
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457520317309
+      \endverb
+      \keyw{At-fault crash driver,Traffic violation,Traffic enforcement,Deep learning}
+    \endentry
+    \entry{YI2019241}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7e63bb3e32e4718e8589933c3403db62}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Dewei},
+           giveni={D\bibinitperiod}}}%
+        {{hash=725cbbc90eca1423ffcba826bdfb37c4}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Jinya},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2c873980bb7cfc2b0aa554b34c55d265}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Cunjia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=41f88546ac18e2d38408089bf2e97df1}{%
+           family={Quddus},
+           familyi={Q\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d6e19eeaa5e9160c870f3173b35c9d63}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wen-Hua},
+           giveni={W\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{efeb1caea9da8281f4596469822b844d}
+      \strng{fullhash}{d28b0a39074e50c6c91660809dd9a7b9}
+      \strng{bibnamehash}{efeb1caea9da8281f4596469822b844d}
+      \strng{authorbibnamehash}{efeb1caea9da8281f4596469822b844d}
+      \strng{authornamehash}{efeb1caea9da8281f4596469822b844d}
+      \strng{authorfullhash}{d28b0a39074e50c6c91660809dd9a7b9}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reliable driving state recognition (e.g. normal, drowsy, and aggressive) plays a significant role in improving road safety, driving experience and fuel efficiency. It lays the foundation for a number of advanced functions such as driver safety monitoring systems and adaptive driving assistance systems. In these applications, state recognition accuracy is of paramount importance to guarantee user acceptance. This paper is mainly focused on developing a personalized driving state recognition system by learning from non-intrusive, easily accessible vehicle related measurements and its validation using real-world driving data. Compared to conventional approaches, this paper first highlights the necessities of adopting a personalized system by analysing feature distribution of individual driver’s data and all drivers’ data via advanced data visualization and statistical analysis. If significant differences are identified, a dedicated personalized model is learnt to predict the driver’s driving state. Spearman distance is also drawn to evaluate the differences between individual driver’s data and all drivers’ data in a quantitative manner. In addition, five categories of classifiers are tested and compared to identify a suitable one for classification, where random forest with Bayesian parameter optimization outperforms others and therefore is adopted in this paper. A recently collected dataset from real-world driving experiments is adopted to evaluate the proposed system. Comparative experimental results indicate that the personalized learning system with road information significantly outperforms conventional approaches without considering personalized characteristics or road information, where the overall accuracy increases from 81.3\% to 91.6\%. It is believed that the newly developed personalized learning system can find a wide range of applications where diverse behaviours exist.}
+      \field{issn}{0968-090X}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{A machine learning based personalized system for driving state recognition}
+      \field{volume}{105}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{241\bibrangedash 261}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.trc.2019.05.042
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X18309458
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X18309458
+      \endverb
+      \keyw{GPS,Driver state monitoring,Anomalous driving detection,Road safety}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

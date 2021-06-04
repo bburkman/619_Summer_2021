@@ -1,0 +1,153 @@
+\documentclass[11pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes}
+\usepackage{pgfmath}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\setlist{noitemsep}
+\usepackage{listings}
+\lstset{language=python}
+\usepackage{makeidx}
+\usepackage{verbatim}
+\usepackage{datetime}
+
+\setlength{\pdfpageheight}{11in}
+\setlength{\textheight}{9in}
+\setlength{\voffset}{-1in}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\marginparsep}{0pt}
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparpush}{0pt}
+\setlength{\textwidth}{6.5in}
+
+\pagestyle{plain}
+\makeindex
+
+\title{CS156 Yaser Abu-Mostafa Notes}
+\author{Brad Burkman}
+\newdateformat{vardate}{\THEDAY\ \monthname[\THEMONTH]\ \THEYEAR}
+\vardate
+\date{\today}
+
+\begin{document}
+\setlength{\parindent}{20pt}
+\begin{spacing}{1.2}
+\maketitle
+
+\tableofcontents
+
+
+\section{Lecture 1}
+
+Lecture 1 of 18 of Caltech's Machine Learning Course - CS 156 by Professor Yaser Abu-Mostafa
+
+\url{https://www.youtube.com/watch?v=mbyG85GZ0PI&hd=1}
+
+\subsection{Requirements for Machine Learning}
+
+\begin{itemize}
+	\item A pattern exists
+	\item We cannot pin it down mathematically
+	\item We have data on it
+\end{itemize}
+
+\subsection{Components of Learning}
+
+\begin{itemize}
+	\item Input:  $\mathbf{x}$, a $d$-dimensional vector
+	\item Output: $y \in \{-1,1\}$
+	\item Target Function: $f: \mathcal{X} \to \mathcal{Y}$ (unknown)
+	\item Data:  $(\mathbf{x}_1, y_1), (\mathbf{x}_2, y_2), \dots, (\mathbf{x}_N, y_N)$ (historical records), with $N$ as the number of data points.
+	\item Hypothesis:  $g: \mathcal{X} \to \mathcal{Y}$ (known, because we created it.  The goal is to find a hypothesis $g$ that approximates $f$ well, $g \approx f$.
+	\item Learning Algorithm $\mathcal{A}$
+	\item Hypothesis Set $\mathcal{H}$ Set of candidate formulas.
+\end{itemize}
+
+\section{Lecture 2}
+
+\url{https://www.youtube.com/watch?v=MEG35RDD7RA&t=3s}
+
+Review of Requirements for Machine Learning
+
+\begin{tabular}{p{1.5in}p{4in}}
+	A pattern exists & Whether or not a pattern exists, we can apply learning algorithms.  At the end of the process, we will have methods for determining whether we have actually learned something, {\it i.e.} whether there actually was a pattern and whether we actually found a good approximation for it. Not knowing whether there's a pattern should not keep us from applying learning methods.  If we know there isn't a pattern, however, we would be wasting our time.  \cr
+	We cannot pin it down mathematically & If we could pin it down mathematically,  machine learning is not the recommended technique, but it will work, approximately.   \cr
+	We have data on it &  Can't do machine learning without data. \cr
+\end{tabular}
+
+\
+
+``In science and in engineering, you go a huge distance by settling not for absolutely certain, but almost certain.  It opens a world of possibilities.''
+
+\
+
+$\epsilon$ is tolerance
+
+Hoeffding's Inequality
+\hfil
+$\mathbb{P}[|\nu - \mu| < \epsilon] \le 2e^{-2\epsilon^2 N} $
+
+We will use this inequality throughout the course. 
+
+{\it P.A.C.} Probably Approximately Correct
+
+Hoeffding's Inequality is true for all $N$ and $\epsilon$.  Not asymptotic.  Belongs to the Laws of Large Numbers, but doesn't just apply to large numbers, although it's only relevant for large numbers to get any useful results in practice.  
+
+Bound (right side) does not depend on $\mu$, which is unknown.  
+
+Difference between {\it verification} and {\it learning}.  Learning is searching the spa ce $\mathcal{H}$ to deliberately find a hypothesis $h$ that fits the data well.  
+
+\subsection{Vocabulary}
+
+$\nu$ is {\it in sample} denoted by $E_{\text{in}}$
+
+$\mu$ is {\it out of sample} denoted by $E_{\text{out}}$
+
+\
+
+Given a hypothesis $h$, we have $E_{\text{in}}(h)$ and $E_{\text{out}}(h)$.
+
+Hoeffding becomes \qquad $\mathbb{P} \left[ \left| E_{\text{in}}(h) - E_{\text{out}}(h) \right| > \epsilon \right] \le 2e^{-2\epsilon^2 N}$
+
+\
+
+There's a problem, that if we have $M$ hypotheses, and $g$ is one of them, then 
+
+\begin{align*}
+	\mathbb{P} [ | E_{\text{in}}(g) - E_{\text{out}}(g)| > \epsilon] & \le
+	\mathbb{P} \bigg[ | E_{\text{in}}(h_1) - E_{\text{out}}(h_1)| > \epsilon \cr
+	& \qquad \text{or } | E_{\text{in}}(h_2) - E_{\text{out}}(h_2)| > \epsilon \cr
+	& \qquad \cdots \cr
+	& \qquad \text{or } | E_{\text{in}}(h_M) - E_{\text{out}}(h_M)| > \epsilon \bigg] \cr
+	&= \sum_{m=1}^M \mathbb{P} [ | E_{\text{in}}(h_m) - E_{\text{out}}(h_m)| > \epsilon ] \cr
+	&= \sum_{m=1}^M 2e^{-2 \epsilon^2 N} \cr
+	&= 2Me^{-2 \epsilon^2 N} \cr
+\end{align*}
+
+%%%%%%%%%%%%%%%%%%
+% Index
+\clearpage
+\addcontentsline{toc}{section}{Index}
+\printindex
+
+%%%%%%%%%%%%%%%%
+\end{spacing}
+\end{document}
+
+%%%%%%%%%%%%
+% Useful tools
+%%%%%%%%%
+
+\begin{lstlisting}
+Put your code here.
+\end{lstlisting}
+
+\lstinputlisting[language=python]{source_filename.py}
+
+

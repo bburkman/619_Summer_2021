@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Das_Papers_Review.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Das_Bibliography.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 3 entries,
+            6951 wiz_defined-function locations,
+            1297 strings with 11690 characters,
+and the built_in function-call counts, 7536 in all, are:
+= -- 850
+> -- 77
+< -- 423
++ -- 437
+- -- 6
+* -- 565
+:= -- 1488
+add.period$ -- 12
+call.type$ -- 3
+change.case$ -- 51
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 216
+empty$ -- 271
+format.name$ -- 147
+if$ -- 1318
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 0
+newline$ -- 102
+num.names$ -- 24
+pop$ -- 87
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 412
+stack$ -- 0
+substring$ -- 453
+swap$ -- 133
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 240
+warning$ -- 0
+while$ -- 49
+width$ -- 0
+write$ -- 137

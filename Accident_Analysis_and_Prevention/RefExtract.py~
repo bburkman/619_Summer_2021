@@ -1,0 +1,4 @@
+from refextract import extract_references_from_file
+
+references = extract_references_from_file('A-Bayesian-modeling-framework-for-crash-severity-effe_2020_Accident-Analysis.pdf')
+print (references[0])

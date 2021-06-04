@@ -1,0 +1,12 @@
+\documentclass[11pt]{article}
+%\usepackage[backend=biber]{biblatex}
+\usepackage[notes,backend=biber,isbn=false,annotation]{biblatex-chicago}
+\DeclareFieldFormat{addendum}{\paragraph\indent{\textbf{Suggestions for Future Research:}\addspace#1}\\}\DeclareFieldFormat{annotation}{\paragraph\indent{\textbf{Brad's Notes:}\addspace#1}\\}\addbibresource{Accident_Analysis_and_Prevention.bib}
+
+\begin{document}
+
+%\cite{HUGHES2019289}
+\nocite{*}
+\printbibliography
+
+\end{document}

@@ -1,0 +1,114 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Das%
+, Avelar%
+, Dixon%
+\BCBL {}\ \BBA {} Sun%
+}{%
+Das%
+, Avelar%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+DAS201843}
+\APACinsertmetastar {%
+DAS201843}%
+\begin{APACrefauthors}%
+Das, S.%
+, Avelar, R.%
+, Dixon, K.%
+\BCBL {}\ \BBA {} Sun, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Investigation on the wrong way driving crash patterns
+  using multiple correspondence analysis} {Investigation on the wrong way
+  driving crash patterns using multiple correspondence analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Accident Analysis and Prevention}{111}{}{43-55}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0001457517304037}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.aap.2017.11.016}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Das%
+\ \protect \BOthers {.}}{%
+Das%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+doi:10.1080/12265934.2018.1431146}
+\APACinsertmetastar {%
+doi:10.1080/12265934.2018.1431146}%
+\begin{APACrefauthors}%
+Das, S.%
+, Dutta, A.%
+, Avelar, R.%
+, Dixon, K.%
+, Sun, X.%
+\BCBL {}\ \BBA {} Jalayer, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Supervised association rules mining on pedestrian
+  crashes in urban areas: identifying patterns for appropriate countermeasures}
+  {Supervised association rules mining on pedestrian crashes in urban areas:
+  identifying patterns for appropriate countermeasures}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Urban Sciences}{23}{1}{30-48}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1080/12265934.2018.1431146}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1080/12265934.2018.1431146} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Das%
+, Dutta%
+, Dixon%
+, Minjares-Kyle%
+\BCBL {}\ \BBA {} Gillette%
+}{%
+Das%
+, Dutta%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+doi:10.1177/0361198118797212}
+\APACinsertmetastar {%
+doi:10.1177/0361198118797212}%
+\begin{APACrefauthors}%
+Das, S.%
+, Dutta, A.%
+, Dixon, K.%
+, Minjares-Kyle, L.%
+\BCBL {}\ \BBA {} Gillette, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Using Deep Learning in Severity Analysis of At-Fault
+  Motorcycle Rider Crashes} {Using deep learning in severity analysis of
+  at-fault motorcycle rider crashes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Transportation Research Record}{2672}{34}{122-134}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1177/0361198118797212}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1177/0361198118797212} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

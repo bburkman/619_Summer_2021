@@ -1,0 +1,93 @@
+\documentclass[11pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes}
+\usepackage{pgfmath}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\setlist{noitemsep}
+\usepackage{listings}
+\lstset{language=python}
+\usepackage{makeidx}
+\usepackage{verbatim}
+\usepackage{datetime}
+\usepackage{booktabs}
+
+\setlength{\pdfpageheight}{11in}
+\setlength{\textheight}{9in}
+\setlength{\voffset}{-1in}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\marginparsep}{0pt}
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparpush}{0pt}
+\setlength{\textwidth}{6.5in}
+
+\pagestyle{plain}
+\makeindex
+
+\title{Crash Data ML}
+\author{Brad Burkman}
+\newdateformat{vardate}{\THEDAY\ \monthname[\THEMONTH]\ \THEYEAR}
+\vardate
+\date{\today}
+
+\begin{document}
+\setlength{\parindent}{20pt}
+\begin{spacing}{1.2}
+\maketitle
+\tableofcontents
+
+\section{Reworking the Titanic Notebook}
+
+The Titanic notebook is two years old, and I noticed as I read through it that several times the output had warnings that parts of the code were outdated.  I sometimes got different results.  All of the data prep results were the same.  The differences started when I got to the logistic regression coefficients.  My results on the right, Kaggle's on the left.
+
+\
+
+\input{TitanicLogisticRegressionTable.tex}
+\vskip -2.5in
+\hfill\includegraphics[height=3in]{TitanicLogisticRegressionTable.png}
+
+\newpage
+
+I saw the same differences in the scores of the different models.  
+
+\
+
+\input{TitanicTable.tex}
+\vskip -2.5in
+\hfill\includegraphics[height=3in]{TitanicModelsTable.png}
+
+\section{Models Scores for Crash Data}
+
+Here are the results of the different models for the Crash Data.  I turned off the SVM calculation because it was just taking too long for a preliminary snapshot.  
+
+\
+
+\input{Table.tex}
+
+
+%%%%%%%%%%%%%%%%%%
+% Index
+\clearpage
+\addcontentsline{toc}{section}{Index}
+\printindex
+
+%%%%%%%%%%%%%%%%
+\end{spacing}
+\end{document}
+
+%%%%%%%%%%%%
+% Useful tools
+%%%%%%%%%
+
+\begin{lstlisting}
+Put your code here.
+\end{lstlisting}
+
+\lstinputlisting[language=python]{source_filename.py}
+
+

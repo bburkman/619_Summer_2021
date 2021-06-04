@@ -1,0 +1,959 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 MAY 2021 08:39
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Bibliography_AAP.tex
+(./Bibliography_AAP.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago
+.sty
+Package: biblatex-chicago 2018/01/10 v 3.10 biblatex style
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count175
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count176
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count177
+\c@listtotal=\count178
+\c@listcount=\count179
+\c@liststart=\count180
+\c@liststop=\count181
+\c@citecount=\count182
+\c@citetotal=\count183
+\c@multicitecount=\count184
+\c@multicitetotal=\count185
+\c@instcount=\count186
+\c@maxnames=\count187
+\c@minnames=\count188
+\c@maxitems=\count189
+\c@minitems=\count190
+\c@citecounter=\count191
+\c@maxcitecounter=\count192
+\c@savedcitecounter=\count193
+\c@uniquelist=\count194
+\c@uniquename=\count195
+\c@refsection=\count196
+\c@refsegment=\count197
+\c@maxextratitle=\count198
+\c@maxextratitleyear=\count199
+\c@maxextraname=\count266
+\c@maxextradate=\count267
+\c@maxextraalpha=\count268
+\c@abbrvpenalty=\count269
+\c@highnamepenalty=\count270
+\c@lownamepenalty=\count271
+\c@maxparens=\count272
+\c@parenlevel=\count273
+\blx@tempcnta=\count274
+\blx@tempcntb=\count275
+\blx@tempcntc=\count276
+\blx@maxsection=\count277
+\blx@maxsegment@0=\count278
+\blx@notetype=\count279
+\blx@parenlevel@text=\count280
+\blx@parenlevel@foot=\count281
+\blx@sectionciteorder@0=\count282
+\blx@entrysetcounter=\count283
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language86
+\c@mincomprange=\count284
+\c@maxcomprange=\count285
+\c@mincompwidth=\count286
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'chicago-notes.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count287
+\c@savedafterword=\count288
+\c@annotator=\count289
+\c@savedannotator=\count290
+\c@author=\count291
+\c@savedauthor=\count292
+\c@bookauthor=\count293
+\c@savedbookauthor=\count294
+\c@commentator=\count295
+\c@savedcommentator=\count296
+\c@editor=\count297
+\c@savededitor=\count298
+\c@editora=\count299
+\c@savededitora=\count300
+\c@editorb=\count301
+\c@savededitorb=\count302
+\c@editorc=\count303
+\c@savededitorc=\count304
+\c@foreword=\count305
+\c@savedforeword=\count306
+\c@holder=\count307
+\c@savedholder=\count308
+\c@introduction=\count309
+\c@savedintroduction=\count310
+\c@namea=\count311
+\c@savednamea=\count312
+\c@nameb=\count313
+\c@savednameb=\count314
+\c@namec=\count315
+\c@savednamec=\count316
+\c@translator=\count317
+\c@savedtranslator=\count318
+\c@shortauthor=\count319
+\c@savedshortauthor=\count320
+\c@shorteditor=\count321
+\c@savedshorteditor=\count322
+\c@labelname=\count323
+\c@savedlabelname=\count324
+\c@institution=\count325
+\c@savedinstitution=\count326
+\c@lista=\count327
+\c@savedlista=\count328
+\c@listb=\count329
+\c@savedlistb=\count330
+\c@listc=\count331
+\c@savedlistc=\count332
+\c@listd=\count333
+\c@savedlistd=\count334
+\c@liste=\count335
+\c@savedliste=\count336
+\c@listf=\count337
+\c@savedlistf=\count338
+\c@location=\count339
+\c@savedlocation=\count340
+\c@organization=\count341
+\c@savedorganization=\count342
+\c@origlocation=\count343
+\c@savedoriglocation=\count344
+\c@origpublisher=\count345
+\c@savedorigpublisher=\count346
+\c@publisher=\count347
+\c@savedpublisher=\count348
+\c@language=\count349
+\c@savedlanguage=\count350
+\c@origlanguage=\count351
+\c@savedoriglanguage=\count352
+\c@pageref=\count353
+\c@savedpageref=\count354
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
+\locallabelnumberwidth=\skip63
+\locallabelalphawidth=\skip64
+\localshorthandwidth=\skip65
+\localshortjournalwidth=\skip66
+\localshortserieswidth=\skip67
+\localshorttitlewidth=\skip68
+\localshortauthorwidth=\skip69
+\localshorteditorwidth=\skip70
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count355
+\c@textcitetotal=\count356
+\c@textcitemaxnames=\count357
+\c@biburlbigbreakpenalty=\count358
+\c@biburlbreakpenalty=\count359
+\c@biburlnumpenalty=\count360
+\c@biburlucpenalty=\count361
+\c@biburllcpenalty=\count362
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count363
+)
+Package biblatex Info: Trying to load bibliography style 'chicago-notes'...
+Package biblatex Info: ... file 'chicago-notes.bbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-chicago/chicago-notes.bb
+x
+File: chicago-notes.bbx 2018/01/11 v 3.10 biblatex bibliography style
+\lositemsep=\skip71
+\c@bbx:relatedcount=\count364
+\c@bbx:relatedtotal=\count365
+)
+Package biblatex Info: Trying to load citation style 'chicago-notes'...
+Package biblatex Info: ... file 'chicago-notes.cbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-chicago/chicago-notes.cb
+x
+File: chicago-notes.cbx 2018/01/10 v 3.10 biblatex citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\footfullcite'.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Patching 'autolang=other' option.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+\@quotelevel=\count366
+\@quotereset=\count367
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count368
+\l__pdf_internal_box=\box45
+)
+(./Bibliography_AAP.aux)
+\openout1 = `Bibliography_AAP.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+Package biblatex Info: Trying to load language 'english' -> 'cms-american'...
+Package biblatex Info: ... file 'cms-american.lbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-chicago/cms-american.lbx
+File: cms-american.lbx 2018/01/09 v 3.10 biblatex localization
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `Bibliography_AAP.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Bibliography_AAP.bbl' found.
+
+(./Bibliography_AAP.bbl)
+Package biblatex Info: Reference section=0 on input line 8.
+Package biblatex Info: Reference segment=0 on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 12.
+ [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Overfull \hbox (4.83089pt too wide) in paragraph at lines 13--13
+ [][] \OT1/cmr/bx/n/10.95 Sug-ges-tions for Fu-ture Re-search: \OT1/cmr/m/n/10.
+95 In fu-ture re-search, other streams
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[5] [6] [7]
+Overfull \hbox (0.21289pt too wide) in paragraph at lines 13--13
+[][]\OT1/cmr/m/n/10.95 Bordel, St^^Sephanie, Alain So-mat, Herv^^Se Bar-beau, F
+ran^^Xcoise An-ceaux, Cather-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Overfull \hbox (11.61343pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 and car-following ma-neu-vers.'' \OT1/cmr/m/it/10.95 Ac-ci-d
+ent Anal-y-sis & Pre-ven-tion \OT1/cmr/m/n/10.95 154 (2021):
+ []
+
+[10]
+Overfull \hbox (4.77406pt too wide) in paragraph at lines 13--13
+[][]\OT1/cmr/m/n/10.95 Chung, Yi-Shih. ``Fac-tor com-plex-ity of crash oc-cur-r
+ence: An em-pir-i-cal demon-
+ []
+
+[11]
+Overfull \hbox (7.11737pt too wide) in paragraph at lines 13--13
+[][]\OT1/cmr/m/n/10.95 Clarke, David D, Patrick J Ward, and Jean Jones. ``Over-
+tak-ing road-accidents:
+ []
+
+
+Overfull \hbox (3.723pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 were work-ing at the Uni-ver-sity of Not-ting-ham at the tim
+e of this work.1.''
+ []
+
+[12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Overfull \hbox (7.7622pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 Robert, Anuj K. Prad-han, and X. Jessie Yang. ``Pre-dict-ing
+ driver takeover
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[17]
+Overfull \hbox (6.84364pt too wide) in paragraph at lines 13--13
+[][]\OT1/cmr/m/n/10.95 Elmitiny, Noor, Xue-dong Yan, Es-sam Rad-wan, Chris Russ
+o, and Dina Nashar.
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[21]
+Overfull \hbox (4.31345pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 and work-related out-comes.'' \OT1/cmr/m/it/10.95 Ac-ci-dent
+ Anal-y-sis & Pre-ven-tion \OT1/cmr/m/n/10.95 135 (2020):
+ []
+
+[22]
+Overfull \hbox (2.68942pt too wide) in paragraph at lines 13--13
+ [][] \OT1/cmr/bx/n/10.95 Brad's Notes: \OT1/cmr/m/n/10.95 Multi-Objective Deep
+ Re-in-force-ment Learn-ing. Adap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[26]
+Overfull \hbox (0.76704pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 of brain imag-ing meth-ods in driv-ing be-haviour re-search.
+'' \OT1/cmr/m/it/10.95 Ac-ci-dent Anal-
+ []
+
+[27] [28] [29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Overfull \hbox (1.72641pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 Muro-machi, and Soumik Nafis Sadeek. ``Real-time crash pre-d
+ic-tion mod-
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Overfull \hbox (4.75761pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 change: Bayesian net-work pre-dic-tive mod-el-ing ap-proach.
+'' \OT1/cmr/m/it/10.95 Ac-ci-dent Anal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[32] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Overfull \hbox (2.54765pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 Chen. ``Cyber-attacks in the next-generation cars, mit-i-ga-
+tion tech-niques,
+ []
+
+[38]
+Overfull \hbox (0.22505pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 sever-i-ties can be en-hanced with data from ad-di-tional de
+-ploy-ments across
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[39] [40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[42]
+Overfull \hbox (5.92633pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 Brown. ``Com-puter vi-sion and driver dis-trac-tion: De-vel-
+op-ing a behaviour-
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Overfull \hbox (5.37996pt too wide) in paragraph at lines 13--13
+[][]\OT1/cmr/m/n/10.95 Lajunen, Timo, and Di-anne Parker. ``Are ag-gres-sive pe
+o-ple ag-gres-sive drivers?
+ []
+
+[44] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[49]
+Overfull \hbox (1.0649pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 ver-sar-ial net-works.'' \OT1/cmr/m/it/10.95 Ac-ci-dent Anal
+-y-sis & Pre-ven-tion \OT1/cmr/m/n/10.95 144 (2020): 105628. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[50] [51] [52]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[56] [57] [58]
+Overfull \hbox (1.86568pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 mon-i-tor-ing and warn-ing sys-tem.'' Fa-tigue and Trans-por
+t, \OT1/cmr/m/it/10.95 Ac-ci-dent Anal-
+ []
+
+[59] [60] [61]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[63]
+Overfull \hbox (6.71841pt too wide) in paragraph at lines 13--13
+[][]\OT1/cmr/m/n/10.95 Parsa, Amir Ba-hador, Homa Taghipour, Sybil Der-ri-ble, 
+and Abol-fazl (Kouros)
+ []
+
+
+Overfull \hbox (0.73918pt too wide) in paragraph at lines 13--13
+ [][] \OT1/cmr/bx/n/10.95 Brad's Notes: \OT1/cmr/m/n/10.95 Not pre-dic-tion, bu
+t iden-ti-fi-ca-tion from real-time data.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[65] [66] [67]
+Overfull \hbox (1.24574pt too wide) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/10.95 Talks about dif-fer-ent met-rics: Pre-ci-sion, Re-call, Ac
+-cu-racy, Cross-entropy
+ []
+
+[68]
+Overfull \hbox (0.22873pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 Net-work beat bench-mark mod-els in (MSE) Mean Squared Er-ro
+r, (MAE)
+ []
+
+[69] [70] [71] [72]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[73] [74] [75]
+Overfull \hbox (0.64531pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 ac-ci-dent oc-cur-rence us-ing a bal-anced bag-ging ap-proac
+h.'' \OT1/cmr/m/it/10.95 Ac-ci-dent Anal-
+ []
+
+[76] [77] [78]
+Overfull \hbox (13.41002pt too wide) in paragraph at lines 13--13
+[][]\OT1/cmr/m/n/10.95 Shi, Xi-u-peng, Yiik Diew Wong, Michael Zhi-Feng Li, Cha
+n-drasekar Palanisamy,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Overfull \hbox (2.40326pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 with deep learn-ing.'' \OT1/cmr/m/it/10.95 Ac-ci-dent Anal-y
+-sis & Pre-ven-tion \OT1/cmr/m/n/10.95 134 (2020): 105319. 
+ []
+
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[81]
+Overfull \hbox (5.53218pt too wide) in paragraph at lines 13--13
+[][]\OT1/cmr/m/n/10.95 Sohrabi, So-heil, Ali Kho-dadadi, Seyedeh Maryam Mousavi
+, Ba-har Dadashova,
+ []
+
+[82]
+Overfull \hbox (13.18985pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 learn-ing, text min-ing, and spa-tial anal-y-sis tech-niques
+ to de-velop a highway-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Overfull \hbox (1.03107pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 Com-pre-hen-sive Railroad-Highway Grade Cross-ing Con-sol-i-
+da-tion Model:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[83] [84]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[85] [86]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[87] [88]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[89] [90] [91]
+Overfull \hbox (3.60497pt too wide) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/10.95 Doesn't say where they got the weather re-port, un-less it
+'s in the SWITRS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[93]
+Overfull \hbox (8.36494pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 lifestyle-related dis-ease.'' \OT1/cmr/m/it/10.95 Ac-ci-dent
+ Anal-y-sis & Pre-ven-tion \OT1/cmr/m/n/10.95 18, no. 5 (1986):
+ []
+
+[94] [95]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[97]
+Overfull \hbox (2.53673pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 risk mod-els on free-ways with lim-ited real-time traf-fic d
+ata us-ing Bayesian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[98]
+Overfull \hbox (7.702pt too wide) in paragraph at lines 13--13
+\OT1/cmr/m/n/10.95 Wyoming Con-nected Ve-hi-cle Pi-lot De-ploy-ment Pro-gram.''
+ \OT1/cmr/m/it/10.95 Ac-ci-dent Anal-
+ []
+
+[99] [100]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[101] [102] [103]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[105]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[106]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[107]
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+[108] (./Bibliography_AAP.aux)
+Package logreq Info: Writing requests to 'Bibliography_AAP.run.xml'.
+\openout1 = `Bibliography_AAP.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 11590 strings out of 480608
+ 254642 string characters out of 5903631
+ 1786769 words of memory out of 5000000
+ 27461 multiletter control sequences out of 15000+600000
+ 536845 words of font info for 39 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,5n,49p,4435b,3913s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
+local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/l
+ocal/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Bibliography_AAP.pdf (108 pages, 318002 bytes).
+PDF statistics:
+ 385 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

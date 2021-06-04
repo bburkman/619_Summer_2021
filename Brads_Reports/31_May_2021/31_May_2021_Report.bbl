@@ -1,0 +1,250 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{ROLAND2021105860}{article}{}
+      \name{author}{5}{}{%
+        {{hash=983a139895a20166741449db5814ab47}{%
+           family={Roland},
+           familyi={R\bibinitperiod},
+           given={Jeremiah},
+           giveni={J\bibinitperiod}}}%
+        {{hash=06c3b96d83cfca56d379d6b1cb596c52}{%
+           family={Way},
+           familyi={W\bibinitperiod},
+           given={Peter\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ebe1dce88def849ee1d6b9ae27284c9f}{%
+           family={Firat},
+           familyi={F\bibinitperiod},
+           given={Connor},
+           giveni={C\bibinitperiod}}}%
+        {{hash=971e418efa8f93425d3133c357cd49d9}{%
+           family={Doan},
+           familyi={D\bibinitperiod},
+           given={Thanh-Nam},
+           giveni={T\bibinithyphendelim N\bibinitperiod}}}%
+        {{hash=043a2b263319ee8b027fbb8901da3431}{%
+           family={Sartipi},
+           familyi={S\bibinitperiod},
+           given={Mina},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {U of Tennessee at Chattanooga}%
+      }
+      \strng{namehash}{8cb414414b8b9131de6a8314a3fed120}
+      \strng{fullhash}{4d349232cc74376bdeb4d27c55fc8099}
+      \strng{bibnamehash}{8cb414414b8b9131de6a8314a3fed120}
+      \strng{authorbibnamehash}{8cb414414b8b9131de6a8314a3fed120}
+      \strng{authornamehash}{8cb414414b8b9131de6a8314a3fed120}
+      \strng{authorfullhash}{4d349232cc74376bdeb4d27c55fc8099}
+      \field{labelalpha}{Rol+21}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Given the ever present threat of vehicular accident occurrence endangering the lives of most people, preventative measures need to be taken to combat vehicle accident occurrence. From dangerous weather to hazardous roadway conditions, there are a high number of factors to consider when studying accident occurrence. To combat this issue, we propose a method using a multilayer perceptron model to predict where accident hotspots are for any given day in the city of Chattanooga, TN. This model analyzes accidents and their associated weather and roadway geometrics to understand the causes of accident occurrence. The model is offered as a live service to local law enforcement and emergency response services to better allocate resources and reduce response times for accident occurrence. Multiple models were made, each having different variables present, and each yielding varying results.}
+      \field{addendum}{As the project proceeds, adjustments to the model and its input features will continue to provide the optimal output. One such future branch of this study includes further investigation into the creation of a singular adverse weather variable, as presented by Hebert et al. (2019). The current individual weather binaries presented within this study could be complicating the models unnecessarily, although this is subject to be determined by further testing. Additionally, demographic data as presented in Dan et al. (2018), Yuan et al. (2017) could be accessed from Geographical Information System (GIS) and incorporated into future modelling, providing some of the missing human factors sought by this team. Lastly, regarding the limitation of a lack of data, any future implementations of this project in different cities/counties could potentially benefit from additional roadway or driver specific data should that city/county have access to said data.}
+      \field{annotation}{Straightforward. Live app for local police. \vskip 12pt Created negative samples. \vskip 0pt Ran feature selection, but it selected some weather variables that correlate to the time of day, like humidity, uvIndex, temperature, dewPoint, pressure, and visibility, and excluded Rain/cloudy/foggy/show/clear, Rain in previous hour, and Precipitation intensity. \vskip 12pt Weird argument for having redundant variables. \vskip 0pt ``Regarding Test A yielding the most viable results, the inclusion of potentially redundant variables (e.g., Lat/Long and Grid\_Num or Hour and DayFrame) is not detrimental to the model’s usability, as those potentially redundant variables use different scales. For example, latitude and longitude use the standard GPS coordinate scale, while Grid\_Num is an integer from 1 to 694. In other words, while some of the variables may reflect similar information, they are presented in inherently different ways.'' \vskip 12pt I'm confused about how you can provide all available variables while applying feature selection. Aren't those contradictory? \vskip 0pt ``The best performing accident prediction model resulted from changing the hour, date, and location values of an accident entry when creating negative samples, having an even split of negative to positive data, providing all available variables for analysis, and applying feature selection, referred to as Total Shift 50–50 FS TA.''}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Modeling and predicting vehicle accident occurrence in Chattanooga, Tennessee}
+      \field{volume}{149}
+      \field{year}{2021}
+      \field{pages}{105860}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2020.105860
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457520316808
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457520316808
+      \endverb
+      \keyw{Machine learning,Traffic accident prediction,Neural networks}
+    \endentry
+    \entry{PARSA2019202}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1566921792686e071bad57758d4ae806}{%
+           family={Parsa},
+           familyi={P\bibinitperiod},
+           given={Amir\bibnamedelima Bahador},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=5a38151b92203ceff8cf6504f9c6159b}{%
+           family={Taghipour},
+           familyi={T\bibinitperiod},
+           given={Homa},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f4ef0fe5f4d7d7c623eaa233ada49f8a}{%
+           family={Derrible},
+           familyi={D\bibinitperiod},
+           given={Sybil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b45438a7d5ef5fd93ede1d456313c7f4}{%
+           family={Mohammadian},
+           familyi={M\bibinitperiod},
+           given={Abolfazl\bibnamedelima (Kouros)},
+           giveni={A\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {U of Illinois at Chicago}%
+      }
+      \strng{namehash}{525d9e5dc846041d6c755174e208fbbb}
+      \strng{fullhash}{5716265f5f3dd0f0d4018eeec14e3188}
+      \strng{bibnamehash}{525d9e5dc846041d6c755174e208fbbb}
+      \strng{authorbibnamehash}{525d9e5dc846041d6c755174e208fbbb}
+      \strng{authornamehash}{525d9e5dc846041d6c755174e208fbbb}
+      \strng{authorfullhash}{5716265f5f3dd0f0d4018eeec14e3188}
+      \field{labelalpha}{Par+19}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Detecting accidents is of great importance since they often impose significant delay and inconvenience to road users. This study compares the performance of two popular machine learning models, Support Vector Machine (SVM) and Probabilistic Neural Network (PNN), to detect the occurrence of accidents on the Eisenhower expressway in Chicago. Accordingly, since the detection of accidents should be as rapid as possible, seven models are trained and tested for each machine learning technique, using traffic condition data from 1 to 7 min after the actual occurrence. The main sources of data used in this study consist of weather condition, accident, and loop detector data. Furthermore, to overcome the problem of imbalanced data (i.e., underrepresentation of accidents in the dataset), the Synthetic Minority Oversampling TEchnique (SMOTE) is used. The results show that although SVM achieves overall higher accuracy, PNN outperforms SVM regarding the Detection Rate (DR) (i.e., percentage of correct accident detections). In addition, while both models perform best at 5 min after the occurrence of accidents, models trained at 3 or 4 min after the occurrence of an accident detect accidents more rapidly while performing reasonably well. Lastly, a sensitivity analysis of PNN for Time-To-Detection (TTD) reveals that the speed difference between upstream and downstream of accidents location is particularly significant to detect the occurrence of accidents.}
+      \field{addendum}{When attempting to detect accident occurrence, the number of accidents in a dataset tends to be small, and therefore most studies must cope with highly imbalanced data. To further improve model performance, if available, more spatiotemporal data could be used. Finally, as future work, the performance of deep learning models, such as Recurrent Neural Network (RNN) and Convolutional Neural Network (CNN), could be investigated, especially when used alongside techniques to deal with imbalanced data and that create more data such as SMOTE.}
+      \field{annotation}{Not prediction, but identification from real-time data. Also not severity of crash, but just occurrence of a crash. Interesting for discussion of techniques for imbalanced data.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Real-time accident detection: Coping with imbalanced data}
+      \field{volume}{129}
+      \field{year}{2019}
+      \field{pages}{202\bibrangedash 210}
+      \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2019.05.014
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457519301642
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457519301642
+      \endverb
+      \keyw{Accident detection,Real-time data,Probabilistic neural network,Support vector machine,Machine learning}
+    \endentry
+    \entry{Hebert_2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d71898344a7cbc106823941ee1282514}{%
+           family={Hebert},
+           familyi={H\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=503508810aff4beb82e58978203db7d7}{%
+           family={Guedon},
+           familyi={G\bibinitperiod},
+           given={Timothee},
+           giveni={T\bibinitperiod}}}%
+        {{hash=40b974bfe49f775d2bae3fa1e9366960}{%
+           family={Glatard},
+           familyi={G\bibinitperiod},
+           given={Tristan},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4e30d9fdff470006dcab86f35d10dc84}{%
+           family={Jaumard},
+           familyi={J\bibinitperiod},
+           given={Brigitte},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6264104ae5e9200bb1e14aaa25fc41bc}
+      \strng{fullhash}{27325f38fefd25877b5a74583285c05d}
+      \strng{bibnamehash}{6264104ae5e9200bb1e14aaa25fc41bc}
+      \strng{authorbibnamehash}{6264104ae5e9200bb1e14aaa25fc41bc}
+      \strng{authornamehash}{6264104ae5e9200bb1e14aaa25fc41bc}
+      \strng{authorfullhash}{27325f38fefd25877b5a74583285c05d}
+      \field{labelalpha}{Heb+19}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781728108582}
+      \field{journaltitle}{2019 IEEE International Conference on Big Data (Big Data)}
+      \field{month}{12}
+      \field{title}{High-Resolution Road Vehicle Collision Prediction for the City of Montreal}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1109/bigdata47090.2019.9006009
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/BigData47090.2019.9006009
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/BigData47090.2019.9006009
+      \endverb
+    \endentry
+    \entry{TSELENTIS2021106081}{article}{}
+      \name{author}{3}{}{%
+        {{hash=431150ea2dfa2d6e1b789be2b3bed8de}{%
+           family={Tselentis},
+           familyi={T\bibinitperiod},
+           given={Dimitrios\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=4e394b311207bc862c7182099c9930ac}{%
+           family={Vlahogianni},
+           familyi={V\bibinitperiod},
+           given={Eleni\bibnamedelima I.},
+           giveni={E\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=d6f1a7dd6849265528bd79d087a9b814}{%
+           family={Yannis},
+           familyi={Y\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Technical U of Athens}%
+      }
+      \strng{namehash}{6123b1170917f6a1b66be31d25dd76ef}
+      \strng{fullhash}{6123b1170917f6a1b66be31d25dd76ef}
+      \strng{bibnamehash}{6123b1170917f6a1b66be31d25dd76ef}
+      \strng{authorbibnamehash}{6123b1170917f6a1b66be31d25dd76ef}
+      \strng{authornamehash}{6123b1170917f6a1b66be31d25dd76ef}
+      \strng{authorfullhash}{6123b1170917f6a1b66be31d25dd76ef}
+      \field{labelalpha}{TVY21}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper attempts to shed light on the temporal evolution of driving safety efficiency with the aim to acquire insights useful for both driving behavior and road safety improvement. Data exploited herein are collected from a sophisticated platform that uses smartphone device sensors during a naturalistic driving experiment, at which the driving behavior from a sample of two hundred (200) drivers during 7-months is continuously recorded in real time. The main driving behavior analytics taken into consideration for the driving assessment include distance travelled, acceleration, braking, speed and smartphone usage. The analysis is performed using statistical, optimization and machine learning techniques. The driver’s safety efficiency index is estimated both in total and in several consecutive time windows to allow for the investigation of safety efficiency evolution in time. Initial data analysis results to the most critical components of microscopic driving behaviour evolution, which are used as inputs in the k-means algorithm to perform the clustering analysis. The main driving characteristics of each cluster are identified and lead to the conclusion that there are three main driving groups of the a) moderate drivers, b) unstable drivers and c) cautious drivers.}
+      \field{annotation}{Interesting if we want to study types of drivers and whether that predicts crashes. Driving safety efficiency in this study refers to the amount of driving events (harsh braking, harsh acceleration, mobile phone usage, speeding) occurred during a certain driving period (Tselentis et al., 2019). The most efficient drivers are those with the least number of events.}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Temporal analysis of driving efficiency using smartphone data}
+      \field{volume}{154}
+      \field{year}{2021}
+      \field{pages}{106081}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2021.106081
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521001123
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521001123
+      \endverb
+      \keyw{Driving behavior,Driving safety efficiency,Temporal evolution,K-means clustering,Smartphone data}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,19 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is '24_May_2021_Report.blg'
+[57] biber-darwin:322> INFO - === Mon May 24, 2021, 06:17:49
+[69] Biber.pm:415> INFO - Reading '24_May_2021_Report.bcf'
+[148] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
+[159] Biber.pm:4256> INFO - Processing section 0
+[160] Utils.pm:75> INFO - Globbing data source '../../Accident_Analysis_and_Prevention/Accident_Analysis_and_Prevention.bib'
+[160] Utils.pm:91> INFO - Globbed data source '../../Accident_Analysis_and_Prevention/Accident_Analysis_and_Prevention.bib' to ../../Accident_Analysis_and_Prevention/Accident_Analysis_and_Prevention.bib
+[167] Biber.pm:4455> INFO - Looking for bibtex format file '../../Accident_Analysis_and_Prevention/Accident_Analysis_and_Prevention.bib' for section 0
+[217] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1365] bibtex.pm:1471> INFO - Found BibTeX data source '../../Accident_Analysis_and_Prevention/Accident_Analysis_and_Prevention.bib'
+[1406] Utils.pm:304> WARN - Duplicate entry key: '1984152' in file '../../Accident_Analysis_and_Prevention/Accident_Analysis_and_Prevention.bib', skipping ...
+[1433] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1433] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1433] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1433] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1437] bbl.pm:652> INFO - Writing '24_May_2021_Report.bbl' with encoding 'UTF-8'
+[1440] bbl.pm:755> INFO - Output to 24_May_2021_Report.bbl
+[1440] Biber.pm:128> INFO - WARNINGS: 1

@@ -1,0 +1,47 @@
+Keywords:  Machine learning, Deep learning, 
+
+%%%
+Vocabulary
+'Built Environment' is a keyword that means the 
+characteristics the of road network, street elements, land use patterns, traffic demand, density and the degree of mixed land use
+'Analytical unit':  Granularity of data.
+
+
+%%%%%
+customized f1-loss function instead of prediction accuracy in Rahim 2021.  
+
+
+%%%%%
+Louisiana people publishing in <Accident Analysis and Prevention>
+
+Samira Soleimani and Michael Leitner and Julius Codjoe
+
+
+%%% Algorithms
+RF - Random Forest
+SVM - Support Vector Machine
+ANN - Artificial Neural Network
+XGBoost - eXtreme Gradient Boosting
+KNN - k Nearest Neighbor
+Ensemble approach
+
+Regression-based ML models (Hughes 2019)
+
+
+Boruta - Wrapper-based algorithm to select relevant features in each category
+
+%%% Metrics
+F1 score is harmonic mean b/n precision and recall.
+
+several evaluation metrics such as overall accuracy, macro-average precision, macro-average recall, and geometric means of individual class accuracies.  (Ijaz, 2021)
+
+%%% Comparison to statistical methods
+
+Hazard Duration Models (something from stats? Old approach to which ML is being compared)
+
+'Traditional statistical models have underlying assumptions and predefined associations, which can yield misleading results if flouted.'  (Ijaz, 2021)
+
+
+%%% Databases
+SHRP2 Naturalistic Driving Study (NDS)
+Roadway Information Database (RID)

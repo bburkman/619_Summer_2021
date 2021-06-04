@@ -1,0 +1,480 @@
+\ifglsentryexists{Detection Rate}{}%
+{%
+\gls@defglossaryentry{Detection Rate}%
+{%
+name={Detection Rate},%
+sort={Detection Rate},%
+type={main},%
+first={Detection Rate},%
+firstplural={Detection Rates},%
+text={Detection Rate},%
+plural={Detection Rates},%
+description={$$\frac {TP}{TP+FN}$$ Synonomous with Sensitivity and True Positive Rate.},%
+descriptionplural={$$\frac {TP}{TP+FN}$$ Synonomous with Sensitivity and True Positive Rate.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{False Positive Rate}{}%
+{%
+\gls@defglossaryentry{False Positive Rate}%
+{%
+name={False Positive},%
+sort={False Positive},%
+type={main},%
+first={False Positive},%
+firstplural={False Positives},%
+text={False Positive},%
+plural={False Positives},%
+description={$$\frac {FP}{FP+TN}$$},%
+descriptionplural={$$\frac {FP}{FP+TN}$$},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Floating Car Data}{}%
+{%
+\gls@defglossaryentry{Floating Car Data}%
+{%
+name={Floating Car Data},%
+sort={Floating Car Data},%
+type={main},%
+first={Floating Car Data},%
+firstplural={Floating Car Datas},%
+text={Floating Car Data},%
+plural={Floating Car Datas},%
+description={Floating car data (FCD) in traffic engineering and management is typically timestamped geo-localization and speed data directly collected by moving vehicles, in contrast to traditional traffic data collected at a fixed location by a stationary device or observer.},%
+descriptionplural={Floating car data (FCD) in traffic engineering and management is typically timestamped geo-localization and speed data directly collected by moving vehicles, in contrast to traditional traffic data collected at a fixed location by a stationary device or observer.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Loop Detector}{}%
+{%
+\gls@defglossaryentry{Loop Detector}%
+{%
+name={Loop Detector},%
+sort={Loop Detector},%
+type={main},%
+first={Loop Detector},%
+firstplural={Loop Detectors},%
+text={Loop Detector},%
+plural={Loop Detectors},%
+description={A buried wire loop with a magnetic field that the vehicle going overhead disrupts, detecting the car. Does not detect pedestrians or animals.},%
+descriptionplural={A buried wire loop with a magnetic field that the vehicle going overhead disrupts, detecting the car. Does not detect pedestrians or animals.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Macroscopic Traffic Variables}{}%
+{%
+\gls@defglossaryentry{Macroscopic Traffic Variables}%
+{%
+name={Macroscopic Traffic Variables},%
+sort={Macroscopic Traffic Variables},%
+type={main},%
+first={Macroscopic Traffic Variables},%
+firstplural={Macroscopic Traffic Variabless},%
+text={Macroscopic Traffic Variables},%
+plural={Macroscopic Traffic Variabless},%
+description={Variables related to traffic, like intensity, density, and speed.},%
+descriptionplural={Variables related to traffic, like intensity, density, and speed.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Microscopic Traffic Variables}{}%
+{%
+\gls@defglossaryentry{Microscopic Traffic Variables}%
+{%
+name={Microscopic Traffic Variables},%
+sort={Microscopic Traffic Variables},%
+type={main},%
+first={Microscopic Traffic Variables},%
+firstplural={Microscopic Traffic Variabless},%
+text={Microscopic Traffic Variables},%
+plural={Microscopic Traffic Variabless},%
+description={Variables related to an individual driver, like speed, time, distance headway, time headway, vehicle type.},%
+descriptionplural={Variables related to an individual driver, like speed, time, distance headway, time headway, vehicle type.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Sensitivity}{}%
+{%
+\gls@defglossaryentry{Sensitivity}%
+{%
+name={Sensitivity},%
+sort={Sensitivity},%
+type={main},%
+first={Sensitivity},%
+firstplural={Sensitivitys},%
+text={Sensitivity},%
+plural={Sensitivitys},%
+description={$$\frac {TP}{TP+FN}$$ Synonomous with Detection Rate and True Positive Rate.},%
+descriptionplural={$$\frac {TP}{TP+FN}$$ Synonomous with Detection Rate and True Positive Rate.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Specificity}{}%
+{%
+\gls@defglossaryentry{Specificity}%
+{%
+name={Specificity},%
+sort={Specificity},%
+type={main},%
+first={Specificity},%
+firstplural={Specificitys},%
+text={Specificity},%
+plural={Specificitys},%
+description={$$\frac {TN}{TN+FP}$$},%
+descriptionplural={$$\frac {TN}{TN+FP}$$},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Traffic Oscillation}{}%
+{%
+\gls@defglossaryentry{Traffic Oscillation}%
+{%
+name={Traffic Oscillation},%
+sort={Traffic Oscillation},%
+type={main},%
+first={Traffic Oscillation},%
+firstplural={Traffic Oscillations},%
+text={Traffic Oscillation},%
+plural={Traffic Oscillations},%
+description={The traffic oscillation is an important feature of traffic flow. It refers to the phenomenon that instead of maintaining a comfortable and stable driving status, vehicles are often forced to repeatedly accelerate and decelerate.},%
+descriptionplural={The traffic oscillation is an important feature of traffic flow. It refers to the phenomenon that instead of maintaining a comfortable and stable driving status, vehicles are often forced to repeatedly accelerate and decelerate.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{True Negative Rate}{}%
+{%
+\gls@defglossaryentry{True Negative Rate}%
+{%
+name={True Negative Rate},%
+sort={True Negative Rate},%
+type={main},%
+first={True Negative Rate},%
+firstplural={True Negative Rates},%
+text={True Negative Rate},%
+plural={True Negative Rates},%
+description={$$\frac {TN}{TN+FP}$$},%
+descriptionplural={$$\frac {TN}{TN+FP}$$},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{True Positive Rate}{}%
+{%
+\gls@defglossaryentry{True Positive Rate}%
+{%
+name={True Positive Rate},%
+sort={True Positive Rate},%
+type={main},%
+first={True Positive Rate},%
+firstplural={True Positive Rates},%
+text={True Positive Rate},%
+plural={True Positive Rates},%
+description={$$\frac {TP}{TP+FN}$$ Synonomous with Sensitivity and Detection Rate.},%
+descriptionplural={$$\frac {TP}{TP+FN}$$ Synonomous with Sensitivity and Detection Rate.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ADAS}{}%
+{%
+\gls@defglossaryentry{ADAS}%
+{%
+name={ADAS},%
+sort={ADAS},%
+type={acronym},%
+first={Advanced Driver Assistance System\glsspace (ADAS)},%
+firstplural={Advanced Driver Assistance Systems\glsspace (ADASs)},%
+text={ADAS},%
+plural={ADASs},%
+description={Advanced Driver Assistance System},%
+descriptionplural={Advanced Driver Assistance System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Advanced Driver Assistance System},%
+longplural={Advanced Driver Assistance Systems},%
+short={ADAS},%
+shortplural={ADASs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{FAR}{}%
+{%
+\gls@defglossaryentry{FAR}%
+{%
+name={FAR},%
+sort={FAR},%
+type={acronym},%
+first={False Alarm Rate\glsspace (FAR)},%
+firstplural={False Alarm Rates\glsspace (FARs)},%
+text={FAR},%
+plural={FARs},%
+description={False Alarm Rate},%
+descriptionplural={False Alarm Rate\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={False Alarm Rate},%
+longplural={False Alarm Rates},%
+short={FAR},%
+shortplural={FARs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{R-CNN}{}%
+{%
+\gls@defglossaryentry{R-CNN}%
+{%
+name={R-CNN},%
+sort={R-CNN},%
+type={acronym},%
+first={Regional-Convolutional Neural Network\glsspace (R-CNN)},%
+firstplural={Regional-Convolutional Neural Networks\glsspace (R-CNNs)},%
+text={R-CNN},%
+plural={R-CNNs},%
+description={Regional-Convolutional Neural Network},%
+descriptionplural={Regional-Convolutional Neural Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Regional-Convolutional Neural Network},%
+longplural={Regional-Convolutional Neural Networks},%
+short={R-CNN},%
+shortplural={R-CNNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TTC}{}%
+{%
+\gls@defglossaryentry{TTC}%
+{%
+name={TTC},%
+sort={TTC},%
+type={acronym},%
+first={Time to Collision\glsspace (TTC)},%
+firstplural={Time to Collisions\glsspace (TTCs)},%
+text={TTC},%
+plural={TTCs},%
+description={Time to Collision},%
+descriptionplural={Time to Collision\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Time to Collision},%
+longplural={Time to Collisions},%
+short={TTC},%
+shortplural={TTCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{DRAC}{}%
+{%
+\gls@defglossaryentry{DRAC}%
+{%
+name={DRAC},%
+sort={DRAC},%
+type={acronym},%
+first={Deceleration Rate to Avoid Crash\glsspace (DRAC)},%
+firstplural={Deceleration Rate to Avoid Crashs\glsspace (DRACs)},%
+text={DRAC},%
+plural={DRACs},%
+description={Deceleration Rate to Avoid Crash},%
+descriptionplural={Deceleration Rate to Avoid Crash\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Deceleration Rate to Avoid Crash},%
+longplural={Deceleration Rate to Avoid Crashs},%
+short={DRAC},%
+shortplural={DRACs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

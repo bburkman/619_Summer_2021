@@ -1,0 +1,23 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Progress}{1}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Jargon to Understand}{1}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}IRB, SHRP Database}{2}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}NGSIM Database}{2}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Mining Bibliographies}{2}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Ideas for a Paper}{3}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Comparing Image Transformation Techniques}{3}{subsection.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Comparing Data Cleaning Techniques}{3}{subsection.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3}Missing Data Analysis}{3}{subsection.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4}Fill Holes in Osman et al}{3}{subsection.6.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}References}{4}{section.7}%

@@ -1,0 +1,19 @@
+import csv
+
+def Feature_Engineering():
+    with open('2019_Crash_1_Database.csv', newline='') as csvfile:
+        Crash = csv.reader(csvfile, delimiter=',')
+    Header = Crash[0]
+    ind = Header.index("SEVERITY_CD")
+    Severity = [Crash[i][ind] for i in range (1,len(Crash))]
+    for i in range (5):
+        print (Severity[i])
+    d = {"A":0.1, "B":0.3, "C":0.5, "D":0.7, "E":0.9}
+    for row in Severity:
+        row = d[row]
+    for i in range (5):
+        print (Severity[i])
+    
+
+if __name__ == "__main__":
+    Feature_Engineering()

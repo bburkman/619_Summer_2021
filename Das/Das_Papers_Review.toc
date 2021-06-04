@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}\it Using Deep Learning in Severity Analysis of At-Fault Motorcycle Rider Crashes}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Abstract}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Introduction}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Literature Review}{2}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Overview of Models Used to Analyze Crash Severity}{3}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Overview of Deep Learning Method Analysis}{3}{subsubsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4}Data Processing}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Deep Learning}{4}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}History}{4}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Theory}{4}{subsubsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.6}Model Development}{5}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Parts I need to Understand}{5}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Summary of Brad's Thoughts, and Questions}{5}{subsection.1.8}%
+\contentsline {subsubsection}{\numberline {1.8.1}Basic Questions}{5}{subsubsection.1.8.1}%
+\contentsline {subsubsection}{\numberline {1.8.2}Minor Critiques and Observations}{6}{subsubsection.1.8.2}%
+\contentsline {subsubsection}{\numberline {1.8.3}Big Questions}{6}{subsubsection.1.8.3}%
+\contentsline {section}{\numberline {2}Papers I haven't Read Yet}{7}{section.2}%
+\contentsline {section}{References}{7}{section*.2}%

@@ -1,0 +1,131 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{RAHIM2021106090}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1c9a82a7609e5d3faa48aa61f352af2a}{%
+           family={Rahim},
+           familyi={R\bibinitperiod},
+           given={Md\bibnamedelima Adilur},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5aaaf0d3d39c75dc58d99db5499bca59}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Hany\bibnamedelima M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {LSU}%
+      }
+      \strng{namehash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \strng{fullhash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \strng{bibnamehash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \strng{authorbibnamehash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \strng{authornamehash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \strng{authorfullhash}{b3a92c8edb2dbd857b0eb57f904683ca}
+      \field{labelalpha}{RH21}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Highway work zones are most vulnerable roadway segments for congestion and traffic collisions. Hence, providing accurate and timely prediction of the severity of traffic collisions at work zones is vital to reduce the response time for emergency units (e.g., medical aid), accordingly improve traffic safety and reduce congestion. In predicting the severity of traffic collisions, previous studies used different statistical and machine learning models with accuracy as the main evaluating factor. However, the performance of these models was generally not good, especially on fatal and injury crashes. Also, looking into the prediction accuracy only is misleading. This paper aims to propose a novel deep learning-based approach with a customized f1-loss function to predict the severity of traffic crashes. Underlying this objective is to compare the results of deep learning models with machine learning model considering two performance indicators, namely precision, and recall. The data used in the analysis include a sample of traffic crashes that occurred at work zones in Louisiana from 2014 to 2018. This dataset includes valuable information (features) related to road, vehicle, and human factors affecting the occurrence and severity of those crashes. The proposed methodology is based on transforming these features/variables into images. Image transformation is conducted using a nonlinear dimensionality reduction technique t-SNE and convex hull algorithm. A CNN based deep learning algorithm with a customized loss function was used to directly optimize the model for precision and recall. The results showed improved performance in predicting the crash severity of fatal and injury crashes using the deep learning approach, which can help to improve traffic safety as well as traffic congestion at work zones and possibly other roadways segments.}
+      \field{addendum}{Future studies may further tune the weight parameter ($\beta$) of the loss function and the threshold value for classifiers to get more optimized precision and recall values suitable for real-life applications.}
+      \field{annotation}{Interesting \vskip 12pt Starts off seeming like it's going to be about real-time crash prediction, but then only uses old data, 2014-2018. \vskip 12pt Crash severity prediction model. \vskip 12pt Talks about different metrics: Precision, Recall, Accuracy, Cross-entropy loss. In an imbalanced dataset, accuracy places more weight on the common classes than in the rare classes. Precision and recall penalize a model for ignoring the minority classes. \vskip 12pt This paper's method emphasizes the recall value of the fatal crashes, because we can allow false positives (non-fatal crashes predicted as fatal) but not false negatives (fatal crashes predicted as non-fatal). \vskip 12pt Transformed numerical data to images, then used CNN, which usually (a) extracts features from the images and (b) classifies the images. They used transfer learning to do the feature extraction. \vskip 12pt Compared CNN with the weird image transformation to SVN. \vskip 12pt Statistical Learning and ML models compared in lit review: \vskip 12pt (SVM) Support Vector Machine, \vskip 0pt (OP) Ordered Probit, \vskip 0pt Logistic Regression, \vskip 0pt (CART) Classification and Regression Tree \vskip 0pt Abdel-Aty used a variable selection procedure prior to model estimation (?) \vskip 0pt (BLR) Bayesian Logistic Regression, \vskip 0pt (ROC) Receiver Operating Characteristic Metric, \vskip 0pt (AUC) Area Under Curve, especially under ROC curve, \vskip 0pt SVM with Radial-basis kernel function, \vskip 0pt SVM with the polynomial kernel outperformed the Gaussian radial basis kernel, \vskip 0pt (ANN) Artificial Neural Network compared to Ordered Probit, \vskip 0pt $k$-means algorithm clustered the dataset into three clusters to improve ANN's performance, \vskip 0pt Random Forest outperformed Logistic Regression, Naive Bayes, and AdaBoost, \vskip 0pt (LSTM) Long Short-Term Memory beat (MLP) Multilayer Perceptron and (BLR) Bayesian Logistic Regression. \vskip 12pt Zheng (2019) \vskip 0pt (CNN) Convolutional Neural Network used (FM2GI) Feature Matrix to Gray Image algorithm to convert traffic accident data to gray images to be input for the image classification model. \vskip 0pt Cross-entropy loss used with Adam optimizer to optimize the model. \vskip 0pt (SMOTE) Synthetic Minority Oversampling Technique used to deal with an imbalanced dataset. \vskip 0pt (STCL-Net) Spatiotemporal Convolutional Long Short-term Memory Network beat benchmark models in (MSE) Mean Squared Error, (MAE) Mean Absolute Error, and (MAPE) Mean Absolute Percentage Error metrics. \vskip 0pt CNN with dropout operation (What is that?) performed better than shallow models (what are those?) \vskip 0pt (LSTM-CNN) Long Short-Term Memory Convolutional Neural Network outperformed LSTM, CNN, XGBoost, BLR in terms of sensitivity and false alarm rate. \vskip 0pt (R-CNN) Region-based Convolutional Neural Networks \vskip 0pt (DNN) Deep Neural Network predicted traffic conflicts in real time with high prediction accuracy and sensitivity, and low false alarm rate. \vskip 0pt (LSTMDTR) LSTM models for (DTR) Different Temporal Resolutions. Number of neurons in the model affected performance and computation time. \vskip 0pt CNN and (GRU) Gated Recurrent Units combined to make a fusion model. \vskip 12pt {\bf Data} \vskip 0pt Louisiana DOTD data, 2014-2018, 10,048 crashes with 98 variables. Why so few crashes? \vskip 0pt 42 fatal, 2699 injury, 7307 (PDO) Property Damage Only \vskip 12pt {\bf Data Cleaning} \vskip 0pt Long section on how the authors cleaned the data. \vskip 0pt Took out records with missing or inconsistent data, rather than fixing them. \vskip 0pt Long list of types of records they considered inconsistent. \vskip 0pt Final dataset had 33 fatal, 1806 injury, and 4497 PDO, total 6336. \vskip 0pt Removed $(42-33)/42 = 9/42 = 21\%$ of fatal, $(2699-1806)/2699 = 893/2699 = 33\%$ of injury, $(7307 - 4497)/7307 = 2810/7307 = 38\%$ of PDO, and $(10048 - 6336)/10048 = 3712/10048 = 37\%$ total. \vskip 12pt {\bf Variable Selection} Use (CART) Classification and Regression Tree and (MARS) Multivariate Adaptive Regression Spline to select the variables that have significant associations with the dependent variable (crash severity). CART returned ten significant variables; MARS, twelve. \vskip 12pt {\bf Transfer Learning}}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{A deep learning based traffic crash severity prediction framework}
+      \field{volume}{154}
+      \field{year}{2021}
+      \field{pages}{106090}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2021.106090
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521001214
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521001214
+      \endverb
+      \keyw{Traffic collision/accident severity,Deep learning,Transfer learning,Numeric to image transformation,Customized loss function}
+    \endentry
+    \entry{OSMAN2019274}{article}{}
+      \name{author}{4}{}{%
+        {{hash=95c0211b04ac71df1b5d1ea4e223fad8}{%
+           family={Osman},
+           familyi={O\bibinitperiod},
+           given={Osama\bibnamedelima A.},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f7128a10382be54f74c9369c4eb118f4}{%
+           family={Hajij},
+           familyi={H\bibinitperiod},
+           given={Mustafa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3446d8ec14342e1852581e691407aa5e}{%
+           family={Karbalaieali},
+           familyi={K\bibinitperiod},
+           given={Sogand},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9fefe665d29525690d089bc6671b0871}{%
+           family={Ishak},
+           familyi={I\bibinitperiod},
+           given={Sherif},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {LSU}%
+      }
+      \strng{namehash}{757a367584841f429b5120b893e5248d}
+      \strng{fullhash}{d6ca2d7cebf1530bcc7fec124aea7106}
+      \strng{bibnamehash}{757a367584841f429b5120b893e5248d}
+      \strng{authorbibnamehash}{757a367584841f429b5120b893e5248d}
+      \strng{authornamehash}{757a367584841f429b5120b893e5248d}
+      \strng{authorfullhash}{d6ca2d7cebf1530bcc7fec124aea7106}
+      \field{labelalpha}{Osm+19}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{According to NHTSA, more than 3477 people (including 551 non-occupants) were killed and 391,000 were injured due to distraction-related crashes in 2015. The distracted driving epidemic has long been under research to identify its impact on driving behavior. There have been a few attempts to detect drivers’ engagement in secondary tasks from observed driving behavior. Yet, to the authors’ knowledge, not much effort has been directed to identify the types of secondary tasks from driving behavior parameters. This study proposes a bi-level hierarchical classification methodology using machine learning to identify the different types of secondary tasks drivers are engaged in using their driving behavior parameters. At the first level, drivers’ engagement in secondary tasks is detected, while at the second level, the distinct types of secondary tasks are identified. Comparative evaluation is performed between nine ensemble tree classification methods to identify three types of secondary tasks (hand-held cellphone calling, cellphone texting, and interaction with an adjacent passenger). The inputs to the models are five driving behavior parameters (speed, longitudinal acceleration, lateral acceleration, pedal position, and yaw rate) along with their standard deviations. The results showed that the overall secondary task detection accuracy ranged from 66\% to 96\%, except for the Decision Tree that was able to detect engagement in secondary tasks with a high accuracy of 99.8\%. For the identification of secondary tasks types, the overall accuracy ranged from 55\% to 79\%, with the highest accuracy of 82.2\% achieved by the Random Forest method. The findings of the paper show the proposed methodology promising to (1) characterize drivers’ engagement in unlawful secondary tasks (such as texting) as a counter measure to prevent crashes, and (2) alert drivers to pay attention back to the main driving task when risky changes to their driving behavior take place.}
+      \field{addendum}{It is worth pointing out that this study did not account for the effect of roadway type and geometric features and vehicle characteristics on the driving behavior variables. However, the driving behavior variables are analyzed as a pattern recognition problem in this study. In other words, identification of secondary tasks is performed through studying the pattern of changes in the driving behavior variables, rather than targeting specific values of each variable as indicators of the type of secondary task drivers are engaged in. Nonetheless, future research will study the impact of roadway type and geometric features and vehicle characteristics on driving behavior variables, hence on the predictability power of the developed models.}
+      \field{annotation}{Interesting in that it looked much more deeply at the data than other studies, looking for correlations between sets of variables. I would like to know about this SHRP-2}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{A hierarchical machine learning classification approach for secondary task identification from observed driving behavior data}
+      \field{volume}{123}
+      \field{year}{2019}
+      \field{pages}{274\bibrangedash 281}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2018.12.005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S000145751831114X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S000145751831114X
+      \endverb
+      \keyw{Distracted driving,Secondary tasks,Detection,Identification,Driving behavior,Ensemble tree,Machine learning,Accident investigations,In-vehicle systems,SHRP2}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,6 @@
+PWD /Users/bburkman/Documents/Spring_2021/619/Accident_Analysis_and_Prevention
+INPUT /usr/local/texlive/2020/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT Accident_Analysis_and_Prevention.bib
+OUTPUT Accident_Analysis_and_Prevention.log
