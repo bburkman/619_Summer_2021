@@ -1,0 +1,180 @@
+\documentclass[11pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes}
+\usepackage{pgfmath}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\setlist{noitemsep}
+\usepackage{listings}
+\lstset{language=python}
+\usepackage{makeidx}
+\usepackage{verbatim}
+\usepackage{datetime}
+
+\setlength{\pdfpageheight}{11in}
+\setlength{\textheight}{9in}
+\setlength{\voffset}{-1in}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\marginparsep}{0pt}
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparpush}{0pt}
+\setlength{\textwidth}{6.5in}
+
+\usepackage[
+	backend=biber,
+	style=alphabetic,
+	citestyle=ieee
+]{biblatex}
+\addbibresource{../../Accident_Analysis_and_Prevention/Accident_Analysis_and_Prevention.bib}
+\addbibresource{../../Other_Journals/Other_Journals.bib}
+\AtEveryBibitem{\clearfield{note}\clearfield{addendum}}
+\AtEveryCitekey{\clearfield{note}\clearfield{addendum}}
+
+
+\pagestyle{plain}
+\makeindex
+
+\title{28 June 2021 Report}
+\author{Brad Burkman}
+\newdateformat{vardate}{\THEDAY\ \monthname[\THEMONTH]\ \THEYEAR}
+\vardate
+\date{\today}
+
+\begin{document}
+\setlength{\parindent}{20pt}
+\begin{spacing}{1.2}
+\maketitle
+\tableofcontents
+
+
+%%%%%
+\section{Accomplishments This Week}
+
+\begin{itemize}
+	\item
+\end{itemize}
+
+%%%%%
+\section{Accuracy, Precision, Recall, Sensitivity, and f1 with Imbalanced Data}
+
+%%%
+\subsection{Reminder of Definitions of Metrics}
+
+\hfil \begin{tabular}{cc|c|c|}
+	&\multicolumn{1}{c}{}& \multicolumn{2}{c}{Prediction} \cr
+	&\multicolumn{1}{c}{} & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{P} \cr\cline{3-4}
+	\multirow{2}{*}{Actual}&N & TN & FP \cr\cline{3-4}
+	&P & FN & TP \cr\cline{3-4}
+\end{tabular}
+
+\begin{align*}
+	\text{Accuracy} &= \frac{TN+TP}{TN+FP+FN+TP} \cr
+	\text{Recall or TPR} &= \frac{TP}{TP + FN} \cr
+	\text{Specificity, Selectivity, or TNR} &= \frac{TN}{TN + FP} \cr
+	\text{Precision} & = \frac{TP}{TP + FP}\cr
+\end{align*}
+
+%%%
+\subsection{Imbalanced Data Set}
+
+In an unbalanced data set, the number of actual negatives ($N = TN + FP$) is much different from the number of actual positives ($P = FN + TP$).  In our case, if our independent variable is fatal crashes, the negatives are $99.574714\%$ of the data set, and the positives are just $0.425286\%$.
+
+%%%
+\subsection{The Problem}
+
+The standard metrics get thrown off by the imbalance.  If we predict that every crash is nonfatal, we have accuracy of 99.57\%, which sounds really impressive.  
+
+The recall (true positive rate) is not thrown off by an imbalanced data set, because it only works with TP and FN, the actual positives.  Similarly for specificity (true negative rate).
+
+The precision is thrown off by an imbalanced data set, because it works with both a subset of the actual positives (TP) and a subset of the actual negatives (FP).  
+
+%%%
+\subsection{Balanced Accuracy}
+
+There is a metric called {\it balanced accuracy}.  You get it from the definition of {\it accuracy} by multiplying the actual negative elements (TN and FP) by the ratio of the positives to negatives, 
+
+$$\frac{P}{N} = \frac{FN+TP}{TN+FP}$$
+
+so that the total number of actual negatives and total number of actual positives in the sample are equal.
+
+[I suppose you could also get it by multiplying the actual positive elements (FN and TP) by the reciprocal.]
+
+I got this derivation by intuiting about what I would want {\it balanced accuracy} to mean, and it matches the definition I found in Wikipedia.  
+
+\url{https://en.wikipedia.org/wiki/precision_and_recall#Imbalanced_data}
+
+Wikipedia says [I'm sure I can find a more authoritative source.]
+
+$$\text{Balanced Accuracy} = \frac{TPR + TNR}{2}$$
+
+\begin{align*}
+	\text{Recall or TPR} &= \frac{TP}{TP+FN} \cr
+	\text{Specificity or TNR} &= \frac{TN}{TN+FP} \cr
+	\text{Accuracy} &= \frac{TN+TP}{TN+FP+FN+TP} \cr
+	\text{Balanced Accuracy} &=  \frac{TN \cdot \frac{P}{N}+TP}{TN \cdot \frac{P}{N}+FP \cdot \frac{P}{N}+FN+TP} \cr
+		&= \frac{TN \cdot P+TP \cdot N}{TN \cdot P+FP \cdot P+FN \cdot N+TP\cdot N} \cr
+	&= \frac{TN \cdot P+TP \cdot N}{(TN+FP) \cdot P+(FN+TP) \cdot  N} \cr
+	&= \frac{TN (FN+TP)+TP (TN+FP)}{(TN+FP) (FN+TP)+(FN+TP) (TN+FP)} \cr
+	&= \frac{TN (FN+TP)+TP (TN+FP)}{2(TN+FP) (FN+TP)} \cr
+	&= \frac{TN (FN+TP)}{2(TN+FP) (FN+TP)}  + \frac{TP (TN+FP)}{2(TN+FP) (FN+TP)} \cr
+	&= \frac{TN}{2(TN+FP) }  + \frac{TP }{2 (FN+TP)} \cr
+	&= \frac{TNR+TPR}{2} \cr
+\end{align*}
+
+%%%
+\subsection{Balanced Precision}
+
+I haven't found {\it balanced precision} in a brief Google search, although Google knows the kind of stuff I look up and sent me to articles on balanced accuracy.  Finding it will take some work, because ``balanced precision'' has different meanings in other tech fields.  
+
+We can make balanced precision the same way we made balanced accuracy, by taking the actual negative results (TN and FP) and scaling them  so that the total number of actual negatives equals the total number of actual positives, by multiplying by $\frac{P}{N} = \frac{FN+TP}{TN+FP}$.
+
+Is this related to the G-mean in last week's report?
+
+$$\text{G-mean} = \sqrt{\text{Precision} \times \text{Specificity}}$$
+
+\begin{align*}
+	\text{Precision} &= \frac{TP}{TP+FP} \cr
+	\text{Balanced Precision} &= \frac{TP}{TP+FP \cdot \frac{P}{N}} \cr
+		&= \frac{TP \cdot N}{TP \cdot N + FP \cdot P} \cr
+		&= \frac{TP (TN+FP)}{TP(TN+FP) + FP (FN+TP)} \cr
+		&= \frac{TP (TN+FP)}{TP(TN+FP) + FP (FN+TP)} \cr
+		&= \dots \cr
+\end{align*}
+
+Giving up here on finding some nice
+
+
+%%%
+% References
+\section{References}
+\label{sec:references}
+\printbibliography[heading=none]
+
+
+%%%%%%%%%%%%%%%%%%
+% Index
+\clearpage
+\addcontentsline{toc}{section}{Index}
+\printindex
+
+%%%%%%%%%%%%%%%%
+\end{spacing}
+\end{document}
+
+%%%%%%%%%%%%
+% Useful tools
+%%%%%%%%%
+
+\begin{lstlisting}
+Put your code here.
+\end{lstlisting}
+
+\lstinputlisting[language=python]{source_filename.py}
+
+
