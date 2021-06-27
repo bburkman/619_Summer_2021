@@ -57,11 +57,21 @@
 \section{Accomplishments This Week}
 
 \begin{itemize}
-	\item
+	\item Worked with George on logistics for getting and processing 5-min weather data, rather than just daily weather data.
+	\item Created new metric, {\it balanced precision}, and used that to make {\it balanced f1}.
+	\item Engineered some new features.
+	\begin{itemize}
+		\item 'fatal'
+		\item 'injury'
+		\item 'pedestrian'
+		\item 'single\_vehicle'
+		\item 'two\_vehicle'
+		\item 'multi\_vehicle'
+	\end{itemize}
 \end{itemize}
 
 %%%%%
-\section{Accuracy, Precision, Recall, Sensitivity, and f1 with Imbalanced Data}
+\section{New Metric for Imbalanced Data:  ``Balanced Precision''}
 
 %%%
 \subsection{Reminder of Definitions of Metrics}
@@ -134,7 +144,7 @@ I haven't found {\it balanced precision} in a brief Google search, although Goog
 
 We can make balanced precision the same way we made balanced accuracy, by taking the actual negative results (TN and FP) and scaling them  so that the total number of actual negatives equals the total number of actual positives, by multiplying by $\frac{P}{N} = \frac{FN+TP}{TN+FP}$.
 
-Is this related to the G-mean in last week's report?
+Is this related to the G-mean in last week's report?  [No]
 
 $$\text{G-mean} = \sqrt{\text{Precision} \times \text{Specificity}}$$
 
@@ -147,8 +157,38 @@ $$\text{G-mean} = \sqrt{\text{Precision} \times \text{Specificity}}$$
 		&= \dots \cr
 \end{align*}
 
-Giving up here on finding some nice
+Giving up here on finding some nice, concise connection between Balanced Precision and other metrics.  
 
+%%%%%
+\section{Top Twenty Features that Correlate with Fatality}
+
+\begin{tabular}{llll}
+\verb|DR_COND_CD2| & I & DRUG USE - IMPAIRED & 0.33 \cr
+\verb|SEC_CONTRIB_FAC_CD| & L & CONDITION OF PEDESTRIAN & 0.32 \cr
+\verb|PRI_CONTRIB_FAC_CD| & L & CONDITION OF PEDESTRIAN  & 0.25 \cr
+\verb|PRI_CONTRIB_FAC_CD| & M & PEDESTRIAN ACTIONS & 0.20 \cr 
+\verb|VEH_TYPE_CD1| & G & OFF-ROAD VEHICLE & 0.18 \cr
+\verb|M_HARM_EV_CD1| & B & FIRE/EXPLOSION  & 0.17 \cr
+\verb|DR_COND_CD2| & F & APPARENTLY ASLEEP/BLACKOUT & 0.17 \cr
+\verb|CRASH_TYPE| & C &  [Unknown] & 0.17 \cr
+\verb|SEC_CONTRIB_FAC_CD| & M & PEDESTRIAN ACTIONS & 0.16  \cr 
+\verb|M_HARM_EV_CD1| & O & PEDESTRIAN & 0.15 \cr
+\verb|VEH_COND_CD| & E & ALL LIGHTS OUT & 0.15 \cr
+\verb|F_HARM_EV_CD1| & O & PEDESTRIAN & 0.15 \cr
+\verb|M_HARM_EV_CD1| & F & FELL/JUMPED FROM MOTOR VEHICLE & 0.15 \cr
+\verb|F_HARM_EV_CD1| & F & FELL/JUMPED FROM MOTOR VEHICLE & 0.14 \cr
+\verb|PEDESTRIAN| &&& 0.13 \cr
+\verb|VEH_TYPE_CD1| & E & MOTORCYCLE & 0.13 \cr
+\verb|DR_COND_CD2| & G & DRINKING ALCOHOL - IMPAIRED & 0.13 \cr
+\verb|CRASH_TYPE| & A &  [Unknown] & 0.13 \cr
+\verb|MOVEMENT_REASON_2| & G & VEHICLE OUT OF CONTROL, PASSING & 0.12 \cr
+\end{tabular}
+
+%%%%%
+\section{Features that do not Correlate with Fatality} 
+\begin{tabular}{lll}
+\verb|dr_cond_cd2|  & E & FATIGUED \cr
+\end{tabular}
 
 %%%
 % References

@@ -2,9 +2,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Accomplishments This Week}{1}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Accuracy, Precision, Recall, Sensitivity, and f1 with Imbalanced Data}{1}{section.2}%
+\contentsline {section}{\numberline {2}New Metric for Imbalanced Data: ``Balanced Precision''}{2}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Reminder of Definitions of Metrics}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Reminder of Definitions of Metrics}{2}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Imbalanced Data Set}{2}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
@@ -14,4 +14,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5}Balanced Precision}{3}{subsection.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}References}{4}{section.3}%
+\contentsline {section}{\numberline {3}Top Twenty Features that Correlate with Fatality}{4}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Features that do not Correlate with Fatality}{5}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}References}{5}{section.5}%
