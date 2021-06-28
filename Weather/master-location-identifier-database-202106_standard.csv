@@ -1,0 +1,131 @@
+Master Location Identifier Database (MLID) - Standard Version,,,,,,,,,,,,,,,,,,,
+Edition 2021.06 | June 2021 | Series E | Effective dates: FAA: 2021-05-20 | ICAO: 2021-05-20 (AIRAC 2105) | WMO: 2021-06-15,,,,,,,,,,,,,,,,,,,
+©2010-2021 Weather Graphics / www.weathergraphics.com / servicedesk@weathergraphics.com / All rights reserved,,,,,,,,,,,,,,,,,,,
+"This database is not approved for navigational use.  Rows marked with x"" in the status column are obsolete and for historical reference only. For complete information on this data, refer to the documentation at: www.weathergraphics.com/identifiers",,,,,,,,,,,,,,,,,,,
+country3,country2,country,region,subregion,place_name,station_name,notes,type,stn_key,status,icao,national_id,wmo,wban,ghcn,special,lat,lon,elev
+USA,US,United States,LA,Vermilion Parish,Abbeville|Grosse Isle,Abbeville Chris Crusta Memorial,ADD/20120209.,,USfxxIYA,-,KIYA,IYA,,,,,29.975778,-92.084222,4.6
+USA,US,United States,LA,Vermilion Parish,Abbeville|Grosse Isle,Abbeville Chris Crusta Memorial AP,,,USaaK0R3,-,K0R3,0R3,,,,,29.97577778,-92.08422222,4.9
+USA,US,United States,LA,Rapides Parish,Alexandria|Green Gables,Esler Field,,,USaaKESF,-,KESF,ESF,,13935,USW00013935,,31.394903,-92.295772,33.8
+USA,US,United States,LA,Rapides Parish,Alexandria|Weil,Alexandria Intl AP,Alexandria Intl AP. New listing.,,USaaKAEX,-,KAEX,AEX,74754,93915,USW00093915,,31.327372,-92.548556,26.8
+USA,US,United States,LA,Bienville Parish,Arcadia,Arcadia,,,USw93939,-,,,,93939,USW00093939,,32.5167,-92.9167,122
+USA,US,United States,LA,Bienville Parish,Arcadia,Arcadia-bienville Parish,,,USfxx5F0,-,K5F0,5F0,,,,,32.53070778,-92.95404778,134.1
+USA,US,United States,LA,Morehouse Parish,Bastrop,Morehouse,,,USaaKBQP,-,KBQP,BQP,,53992,USW00053992,,32.756083,-91.880583,50.9
+USA,US,United States,LA,East Baton Rouge Parish,Baton Rouge|Liberty Farms,Metropolitan AP | Ryan Field AP | Harding AAF,,,USaaKBTR,-,KBTR,BTR,72232,13970,USW00013970,,30.532917,-91.149889,21
+USA,US,United States,LA,Saint Charles Parish,Bayou Gauche,Bayou Gauche,,,USs99736,-,,,99736,,,,29.767,-90.417,8
+USA,US,United States,LA,Saint Charles Parish,Bayou Labranch|La Branche,Bayou Labranch,,,UScBAYOL,-,,,,,,,30.05,-90.367,11
+USA,US,United States,LA,Washington Parish,Bogalusa|Mitch (historical),George R Carr Memorial Air Field,,,USaaKBXA,-,KBXA,BXA,,,,,30.813686,-89.864964,36.3
+USA,US,United States,LA,Plaquemines Parish,Boothville,Boothville,,,,-,K1B7,,72002,,,,29.35,-89.433,1
+USA,US,United States,LA,Plaquemines Parish,Boothville,Boothville,,,,-,K1B7,,72002,,,,29.35,-89.43,1
+USA,US,United States,LA,East Baton Rouge Parish,Boothville,Boothville,,,USaaKBVE,-,KBVE,BVE,,12884,USW00012884,,29.35,-89.43,0.9
+USA,US,United States,LA,Plaquemines,Boothville,Boothville,ADD/20180815.,,USfxxLNQ,-,KLNQ,LNQ,,,,,29.35414,-89.43591,0.9
+USA,US,United States,LA,Saint Landry Parish,Bristol,Kibs Air Park,,,USfxxL89,-,KL89,L89,,,,,30.38131056,-92.14595667,15.5
+USA,US,United States,LA,Rapides Parish,Bunkie|Bubenzer,Bunkie Muni,,,USfxx2R6,-,K2R6,2R6,,,,,30.95674722,-92.23409972,18.9
+USA,US,United States,LA,Harrison County,Buoy|Biloxi,Buoy,,,USs99212,-,,,99212,,,DB/212 CMAN/42007,30.1,-88.9,0
+USA,US,United States,LA,Cameron Parish,Buoy|Peveto Beach,Buoy,,,USs99225,-,,,99225,,,DB/225 CMAN/42011,29.6,-93.5,0
+USA,US,United States,LA,Plaquemines Parish,Burrwood|Burrwood (historical),Burrwood,,,USw12807,-,,,,12807,USW00012807,,28.95,-89.3667,5
+USA,US,United States,LA,Plaquemines Parish,Burrwood|Burrwood (historical),WB (1950s-60s),WBAN and ICAO of Boothville used as key so WBAN could be used for upper air data.,,USw12863,-,,,,12863,USW00012863,,28.967,-89.383,4
+USA,US,United States,LA,Rapides Parish,Claiborne Range|Woodworth,Claiborne Range AFS,,,USaaK01R,-,K01R,01R,74755,3939,USW00003939,,31.13333333,-92.56666667,72
+USA,US,United States,LA,Caldwell Parish,Columbia|Bellevue,Columbia,,,USfxxF86,-,KF86,F86,,,,,32.12216667,-92.0545,20.1
+USA,US,United States,LA,Red River Parish,Coushatta,The Red River AP,,,USfxx0R7,-,K0R7,0R7,,,,,31.990275,-93.30760833,54
+USA,US,United States,LA,Saint Tammany Parish,Covington,Covington,,,USw03905,-,,,,3905,USW00003905,,30.4833,-90.1,12
+USA,US,United States,LA,Saint Tammany Parish,Covington|Abita Springs,St. Tammany Rgnl,,,USfxxL31,-,KL31,L31,,,,,30.44505417,-89.98887889,11.9
+USA,US,United States,LA,Acadia Parish,Crowley|Midland,Le Gros Memorial,,,USfxx3R2,-,K3R2,3R2,,,,,30.16173611,-92.48396111,4.3
+USA,US,United States,LA,Calcasieu Parish,De Quincy|Westwood,De Quincy Industrial Airpark,,,USfxx5R8,-,K5R8,5R8,,,,,30.44117222,-93.47349722,25
+USA,US,United States,LA,Beauregard Parish,De Ridder Aab|Holiday Mobile Home Park,De Ridder Aab,,,USw13937,-,,,,13937,USW00013937,,30.8333,-93.3667,61
+USA,US,United States,LA,Beauregard Parish,De Ridder|Holiday Mobile Home Park,Beauregard Parish AP,,,USaaKDRI,-,KDRI,DRI,,3976,USW00003976,,30.831722,-93.339917,61.3
+USA,US,United States,LA,Madison Parish,Delhi|County Landing,Delhi Muni,,,USfxx0M9,-,K0M9,0M9,,,,,32.41072222,-91.49852778,27.7
+USA,US,United States,LA,-,Environm Buoy 42040,Environm Buoy 42040,,,USs99500,-,,,99500,,,BUOY/500,29.183,-88.2,0
+USA,US,United States,LA,Saint Landry Parish,Eunice,Eunice,,,USfxx4R7,-,K4R7,4R7,,,,,30.46628389,-92.42379917,12.8
+USA,US,United States,LA,Union Parish,Farmerville|Moselys Bluff,Union Parish,,,USfxxF87,-,KF87,F87,,,,,32.72495583,-92.33716583,36.9
+USA,US,United States,LA,Vernon Parish,Fort Polk,Fort Polk,,,USaaKPOE,-,KPOE,POE,72239,3931,USW00003931,,31.044789,-93.191642,100.6
+USA,US,United States,LA,Vernon Parish,Fort Polk|Hicks,Self Strip,,,USaaKDNK,-,KDNK,DNK,,63903,USW00063903,,31.1136,-92.9656,114
+USA,US,United States,LA,Vernon Parish,Fort Polk|Hicks,Fort Polk NEXRAD Site,,,USrrKPOE,Z,,,,3993,USW00003993,NEXRAD/KPOE/339,31.1553,-92.9758,124
+USA,US,United States,LA,Vernon Parish,Fort Polk|Lacamp,Fullerton Landing Strip,,,USaaKBKB,-,KBKB,BKB,,53988,USW00053988,,31.15,-92.9667,94
+USA,US,United States,LA,Sabine Parish,Fort Polk|Peason,Peason Ridge Range,,,USaaKAQV,-,KAQV,AQV,72282,3949,USW00003949,,31.394,-93.298,111.3
+USA,US,United States,LA,Washington Parish,Franklinton|Springhill,Franklinton,,,USfxx2R7,-,K2R7,2R7,,,,,30.81944444,-90.1125,53.3
+USA,US,United States,LA,Lafourche Parish,Galliano|J and K Mobile Park,South Lafourche,,,USaaKGAO,-,KGAO,GAO,,12993,USW00012993,,29.441111,-90.261111,0
+USA,US,United States,LA,Ascension,Gonzales,Louisiana Rgnl,ADD/20170302.,,USfxxREG,-,KREG,REG,,,,,30.171367,-90.940386,4.3
+USA,US,United States,LA,Ascension Parish,Gonzales|Rearwood (historical),Louisiana Rgnl,,,USfxxL38,-,KL38,L38,,,,,30.17272222,-90.94061111,4.3
+USA,US,United States,LA,Jefferson Parish,Grand Isle,Grand Isle CGS,,,USs99429,-,,,99429,,,NWS/GDIL1,29.2667,-89.9667,0
+USA,US,United States,LA,Jefferson Parish,Grand Isle,Grand Isle CGS Seaplane Base,,,USw12990,-,KGNI,GNI,,12990,USW00012990,,29.26272694,-89.9611825,0
+USA,US,United States,LA,Tangipahoa Parish,Hammond|Tallow Wood,Hammond,,,USaaKHDC,-,KHDC,HDC,,3908,USW00003908,,30.521686,-90.418381,14
+USA,US,United States,LA,Claiborne Parish,Homer|Arizona,Homer Muni,,,USfxx5F4,-,K5F4,5F4,,,,,32.78850806,-93.00366083,74.4
+USA,US,United States,LA,Terrebonne Parish,Houma|Presquille,Terrebonne,,,USaaKHUM,-,KHUM,HUM,,12927,USW00012927,,29.566503,-90.660428,2.7
+USA,US,United States,LA,Caddo Parish,Ida,Ida's,,,USfxxL87,-,KL87,L87,,,,,33.00430111,-93.89323444,87.2
+USA,US,United States,LA,Terrebonne Parish,Isle Derniers|Cocodrie,Isle Derniers,,,UScIDERN,-,,,,,,,29.05,-90.533,0
+USA,US,United States,LA,East Feliciana,Jackson,Feliciana Airpark,ADD/20161229.,,USfxxLA3,-,KLA3,LA3,,,,,30.80778,-91.21333,62.2
+USA,US,United States,LA,Iberia Parish,Jeanerette,Le Maire Memorial,,,USfxx2R1,-,K2R1,2R1,,,,,29.89906944,-91.666,4.3
+USA,US,United States,LA,La Salle Parish,Jena|Webb Quarters,Jena,,,USfxx1R1,-,K1R1,1R1,,,,,31.66735278,-92.15756389,65.8
+USA,US,United States,LA,Jefferson Davis Parish,Jennings|Airport Mobile Home Park,Jennings,,,USfxx3R7,-,K3R7,3R7,,,,,30.24269903,-92.67349928,6.7
+USA,US,United States,LA,Jackson Parish,Jonesboro|Evergreen,Jonesboro,,,USfxxF88,-,KF88,F88,,,,,32.20199028,-92.73293028,77.7
+USA,US,United States,LA,Catahoula Parish,Jonesville,Jonesville Muni AP,,,USaaKL32,-,KL32,L32,,,,,31.620258,-91.83429206,17.1
+USA,US,United States,LA,Caddo Parish,Keithville|Staples,Bluebird Hill,,,USfxx5F5,-,K5F5,5F5,,,,,32.3446,-93.79989722,54.9
+USA,US,United States,LA,Saint Martin Parish,Lafayette|Delacroix,Cade Farm|Lafayette 13 SE,,,USw53960,-,,,,53960,USW00053960,,30.0917,-91.8731,11
+USA,US,United States,LA,Lafayette Parish,Lafayette|Walroy,Regional,,,USaaKLFT,-,KLFT,LFT,,13976,USW00013976,,30.205028,-91.98775,12.5
+USA,US,United States,LA,Calcasieu Parish,Lake Charles|Prairieland,Chennault Intl AP,,,USaaKLCH,-,KCWF,CWF,,13941,USW00013941,,30.210583,-93.143194,4.9
+USA,US,United States,LA,Calcasieu Parish,Lake Charles|Prairieland,Regional AP [LCH WSFO],,,USaaKLCH,-,KLCH,LCH,72240,3937,USW00003937,,30.126097,-93.223403,4.3
+USA,US,United States,LA,Calcasieu Parish,Lake Charles|Prairieland,NEXRAD Site,,,USr0KLCH,Z,,,,,,NEXRAD/KLCH/391,30.1253,-93.2158,7
+USA,US,United States,LA,East Carroll Parish,Lake Providence|Arlington,Byerley,,,USfxx0M8,-,K0M8,0M8,,,,,32.82587917,-91.187665,32.3
+USA,US,United States,LA,Vernon,Leesville,Leesville AP,FAA identifier L39 was assumed by Leesville LA airport according to current FAA documents.,,USaaKL39,-,KL39,L39,,,,,31.16819444,-93.34247222,85.6
+USA,US,United States,LA,De Soto Parish,Mansfield|Grand Cane,"C E ""Rusty"" Williams AP | De Soto Parish AF Aux",,,USfxx3F3,-,K3F3,3F3,,,,,32.07345972,-93.76551889,98.8
+USA,US,United States,LA,Sabine Parish,Many|Alford Heights,Hart,,,USfxx3R4,-,K3R4,3R4,,,,,31.5445,-93.48597222,96.9
+USA,US,United States,LA,Avoyelles Parish,Marksville|Cocoville,Marksville Municipal AP,,,USaaKMKV,-,KMKV,MKV,,,,,31.094667,-92.069056,23.8
+USA,US,United States,LA,Saint Landry Parish,Melville,Pete Antie Muni,,,USfxx7L9,-,K7L9,7L9,,,,,30.69433611,-91.74636389,9.1
+USA,US,United States,LA,Webster Parish,Minden|Gilark,Minden,ADD/20120209.,,USfxxMNE,-,KMNE,MNE,,,,,32.646028,-93.298083,84.7
+USA,US,United States,LA,Webster Parish,Minden|Gilark,Minden-Webster AP,,,USfxxF24,-,KF24,F24,,,,,32.64602778,-93.29808333,84.7
+USA,US,United States,LA,Union Parish,Monroe|Alabama Landing,Monroe 26 N,,,USw53961,-,,,,53961,USW00053961,,32.8833,-92.1164,27
+USA,US,United States,LA,Ouachita Parish,Monroe|Magenta,Regional AP | Selman Field,Selman Field presumed to be same as Regional Airport.,,USaaKMLU,-,KMLU,MLU,,13942,USW00013942,,32.510861,-92.037667,24.1
+USA,US,United States,LA,Natchitoches Parish,Natchitoches|East Natchitoches,Regional AP,,,USaaKIER,-,KIER,IER,,53943,USW00053943,,31.735719,-93.099136,36.9
+USA,US,United States,LA,Iberia Parish,New Iberia|New Horizon Mobile Home Park,Acadiana Regional AP,,,USaaKARA,-,KARA,ARA,,53915,USW00053915,,30.037758,-91.883897,7.3
+USA,US,United States,LA,Orleans Parish,New Orleans,New Orleans Downtown,ADD/20130801.,,USfxx'7N0,-,K7N0,7N0,,,,,29.95268,-90.08273,9.1
+USA,US,United States,LA,Orleans Parish,New Orleans,New Orleans Downtown|Superdome Heliport,,,USaaKVSH,-,KVSH,VSH,,,,,29.95268333,-90.08273333,9.1
+USA,US,United States,LA,Plaquemines Parish,New Orleans|Breton,New Orleans LS,,,USw92823,-,,,,92823,USW00092823,,29.3833,-88.9,8
+USA,US,United States,LA,Plaquemines Parish,New Orleans|Concession,Alvin Callender Field,,,USw12942,-,,,,12942,USW00012942,,29.8333,-90,1
+USA,US,United States,LA,Plaquemines Parish,New Orleans|Concession,New Orleans NAS|Alvin Callender NAS,,,USaaKNBG,-,KNBG,NBG,,12958,USW00012958,,29.827214,-90.026589,0.6
+USA,US,United States,LA,Jefferson Parish,New Orleans|Kenner,Moisant International AP,,,USaaKMSY,-,KMSY,MSY,72231,12916,USW00012916,,29.993278,-90.259028,0.9
+USA,US,United States,LA,Orleans Parish,New Orleans|Seabrook,Lakefront AP|New Orleans AP|New Orleans AAF,,,USaaKNEW,-,KNEW,NEW,,53917,USW00053917,,30.042417,-90.028267,2.1
+USA,US,United States,LA,Pointe Coupee Parish,New Roads|Brooks,False River Regional AP,,,USaaKHZR,-,KHZR,HZR,,,,,30.718333,-91.478667,11.9
+USA,US,United States,LA,West Carroll Parish,Oak Grove,Kelly,,,USfxx9M6,-,K9M6,9M6,,,,,32.84921361,-91.40390611,33.8
+USA,US,United States,LA,Allen Parish,Oakdale|Ward,Allen Parish AP,,,USaaKACP,-,KACP,ACP,,53991,USW00053991,,30.7505,-92.688492,32.6
+USA,US,United States,LA,Caddo Parish,Oil City|Shoreline,Thackers,,,USfxx5F8,-,K5F8,5F8,,,,,32.79141667,-93.95654167,61.6
+USA,US,United States,LA,La Salle Parish,Olla|Standard,Olla,,,USfxxL47,-,KL47,L47,,,,,31.89609722,-92.21788333,39.6
+USA,US,United States,LA,Saint Landry Parish,Opelousas,St Landry Parish AP & Ahart Field,,,USaaKOPL,-,KOPL,OPL,,,,,30.558389,-92.099389,22.6
+USA,US,United States,LA,Saint Mary Parish,Patterson|Avalon,Harry P Williams Memorial AP,Dates very approximate.,,USaaKPTN,-,KPTN,PTN,,,,,29.709547,-91.338978,2.4
+USA,US,United States,LA,Saint Mary Parish,Patterson|Avalon,Patterson,,,USw12936,-,,,,12936,USW00012936,,29.7167,-91.3333,3
+USA,US,United States,LA,Rapides Parish,Pineville|Fort Buhlow,Pineville Municipal AP|Alexandria-Pineville AP,Alexandria-Pineville Airport.,,USfxx2L0,-,K1R2,1R2,,,,,31.34219167,-92.44357778,30.5
+USA,US,United States,LA,Rapides Parish,Pineville|Fort Buhlow,Pineville Municipal AP|Alexandria-Pineville AP,,,USfxx2L0,-,K2L0,2L0,,,,,31.34219167,-92.44357778,30.5
+USA,US,United States,LA,Grant Parish,Pollock|Garnett (historical),Pollock Muni,,,USfxxL66,-,KL66,L66,,,,,31.47747222,-92.46116667,61.9
+USA,US,United States,LA,Lafourche Parish,Port Fourchon,Port Fourchon Terminal,,,USaaKXPY,-,KXPY,XPY,,,,,29.123,-90.202,25
+USA,US,United States,LA,Richland Parish,Rayville,John H Hooks Jr Memorial,,,USfxxM79,-,KM79,M79,,,,,32.48541972,-91.77106639,25
+USA,US,United States,LA,Saint John the Baptist,Reserve,Port Of South Louisiana Executive Rgnl,ADD/20170302.,,USfxxAPS,-,KAPS,APS,,,,,30.087472,-90.582833,1.8
+USA,US,United States,LA,Saint John the Baptist Parish,Reserve|Dutch Bayou,St John The Baptist Parish,,,USfxx1L0,-,K1L0,1L0,,,,,30.08700603,-90.58274908,1.8
+USA,US,United States,LA,Jackson Parish,Ruston|Longstraw,Ruston Regional AP,,,USaaKRSN,-,KRSN,RSN,,53958,USW00053958,,32.514603,-92.588444,94.5
+USA,US,United States,LA,Saint Mary Parish,Salt Point|Burns,Salt Point,,,USaaKP92,-,KP92,P92,,12968,USW00012968,,29.5622,-91.5256,1
+USA,US,United States,LA,Caddo Parish,Shreveport,Shreveport Downtown AP,,,USaaKDTN,-,KDTN,DTN,,53905,USW00053905,,32.540219,-93.745022,54.6
+USA,US,United States,LA,Bossier Parish,Shreveport|Bellaire,Barksdale AFB,,,USaaKBAD,-,,,,93936,USW00093936,,32.50193208,-93.66262778,50.6
+USA,US,United States,LA,Bossier Parish,Shreveport|Bossier City|Bellaire,Barksdale AFB,,,USaaKBAD,-,KBAD,BAD,,13944,USW00013944,,32.501933,-93.662628,50.3
+USA,US,United States,LA,Caddo Parish,Shreveport|Buncombe (historical),NEXRAD Site,,,USr0KSHV,Z,,,,,,NEXRAD/KSHV/543,32.4508,-93.8414,72
+USA,US,United States,LA,Caddo Parish,Shreveport|Cut-off Junction,Regional AP | Shreveport AP,,,USaaKSHV,-,KSHV,SHV,72248,13957,USW00013957,,32.446611,-93.825611,78.3
+USA,US,United States,LA,Saint Tammany Parish,Slidell|Amos,NWS,,,USaaKLIX,-,KLIX,LIX,72233,53813,USW00053813,,30.33694444,-89.825,9.9
+USA,US,United States,LA,Saint Tammany Parish,Slidell|Royal Estates,Slidell AP,,,USaaKASD,-,KASD,ASD,,53865,USW00053865,,30.346333,-89.820806,8.5
+USA,US,United States,LA,Saint Tammany Parish,Slidell|Royal Estates,NEXRAD Site,,,USr0KLIX,Z,,,,,,NEXRAD/KLIX/545,30.3367,-89.8256,15
+USA,US,United States,LA,Calcasieu Parish,Southland Field-Sulphur|Moss Lake,Southland Field-Sulphur,,,USaaKUXL,-,KUXL,UXL,,,,,30.131444,-93.376167,3
+USA,US,United States,LA,Plaquemines Parish,Southwest Pass|Burrwood (historical),Southwest Pass,,,USs99401,-,,,99401,,,,28.9,-89.433,0
+USA,US,United States,LA,Plaquemines Parish,Southwest Pass|Port Eads,Southwest Pass,,,USs79401,-,,,79401,,,NWS/BURL1,28.9,-89.4333,0
+USA,US,United States,LA,Webster Parish,Springhill|Meadow Creek Subdivision,Springhill AP,,,USaaKSPH,-,KSPH,SPH,,,,,32.983722,-93.409167,66.1
+USA,US,United States,LA,Tensas Parish,St Joseph|Osceola,Tensas Parish,,,USfxxL33,-,KL33,L33,,,,,31.97334444,-91.23873333,22.6
+USA,US,United States,LA,Madison Parish,Tallulah|Lums,Scott,,,USfxxM80,-,KM80,M80,,,,,32.41630833,-91.14885833,25.6
+USA,US,United States,LA,Madison Parish,Tallulah|Mound,Tallulah Vicksburg AP,,,USaaKTVR,-,KTVR,TVR,,3996,USW00003996,,32.351611,-91.027689,25.9
+USA,US,United States,LA,Terrebonne Parish,Tambour Bay|Cocodrie,Tambour Bay,,,USs99484,-,,,99484,,,,29.183,-90.667,2
+USA,US,United States,LA,Terrebonne Parish,Terrebonne Bay|Cocodrie,Terrebonne Bay,,,USs99485,-,,,99485,,,,29.167,-90.583,0
+USA,US,United States,LA,Terrebonne Parish,Thibodaux|Country Hollow,Thibodaux Muni,,,USfxxL83,-,KL83,L83,,,,,29.74779194,-90.83289889,2.7
+USA,US,United States,LA,Plaquemines Parish,Venice Phi Heliport|Orchard,Venice Phi Heliport,,,USaaK7LS,-,K7LS,7LS,,92807,USW00092807,,29.2619,-89.3636,4
+USA,US,United States,LA,Concordia Parish,Vidalia|Scotland (historical),Concordia Parish,,,USfxx0R4,-,K0R4,0R4,,,,,31.56194444,-91.50641667,16.5
+USA,US,United States,LA,Caddo Parish,Vivian,Vivian,,,USfxx3F4,-,K3F4,3F4,,,,,32.86133333,-94.01015361,79.2
+USA,US,United States,LA,Jefferson Davis Parish,Welsh,Welsh,,,USfxx6R1,-,K6R1,6R1,,,,,30.24187361,-92.82931194,5.5
+USA,US,United States,LA,-,West,AMOS,,,USw12967,-,,,,12967,USW00012967,,28.5,-93,644
+USA,US,United States,LA,Winn Parish,Winnfield,Winn Parish Medical Center,,,USfxx0L6,-,K0L6,0L6,,,,,31.92321889,-92.64570444,42.7
+USA,US,United States,LA,Winn Parish,Winnfield|Fay (historical),David G Joyce,,,USfxx0R5,-,K0R5,0R5,,,,,31.96366222,-92.66026056,44.5
+USA,US,United States,LA,Winn Parish,Winnfield|Union Hill,(Unknown Facility),ADD/20100930.,,USsWINNF,-,,,74753,,,,31.9,-92.78333333,93
+USA,US,United States,LA,Franklin Parish,Winnsboro,Winnsboro Muni,,,USfxxF89,-,KF89,F89,,,,,32.15300694,-91.69855694,23.8
+USA,US,United States,LA,Rapides Parish,Woodworth|Valde Rouge (historical),Woodworth,,,USfxx1R4,-,K1R4,1R4,,,,,31.12635278,-92.50128889,42.7

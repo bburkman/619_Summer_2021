@@ -1,0 +1,30 @@
+Getting ASOS-FIVEMIN Weather Data.
+
+1.  In the 
+master-location-identifier-database-202106_standard.csv
+file, this lists all of the weather stations in the world (in this system).  There's a second tab, "Louisiana," where I've copied that data.  
+
+What you want is the ICAO (International Civil Aviation Organization?) code for the weather station, in column L.  There are 103 weather stations with ICAO codes.  
+
+2.  Go to 
+https://www.ncdc.noaa.gov/data-access/land-based-station-data
+and at the bottom, you'll find "ASOS 5-Minute Data."
+
+If you have a Mac, click on the link, register as "Guest," and it will open their directory in your Finder, as if they were files on your own computer.  Welcome to FTP, File Transfer Protocol.  You can cut and paste from their file system to yours just as if you were copying from one of your directories to another.  
+
+Click on file 6401-2019, the data for the year we want.  
+
+To find the data for (for instance) Rapides Parish, Alexandria|Weil, Alexandria Intl AP	Alexandria Intl AP, which has ICAO code KAEX, scroll down to files 
+64010KAEX201901.dat
+...
+64010KAEX201912.dat
+which represent January through December of 2019.  
+
+3.  Eventually you'll go back and see which other weather stations have ASOS-FiveMin data and download the data.  It's not all of them. 
+
+4.  
+https://github.com/Geosyntec/cloudside
+
+
+
+

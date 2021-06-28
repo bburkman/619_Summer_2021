@@ -68,10 +68,21 @@
 		\item 'two\_vehicle'
 		\item 'multi\_vehicle'
 	\end{itemize}
+	\item Reorganized code to be able to switch between 'fatal' and 'injury' as the independent variable. 
+\end{itemize}
+
+%%%%%
+\section{Questions}
+
+\begin{itemize}
+	\item How would I find whether others have used ``balanced precision'' ?  Google and a library search weren't productive.  
+	\item 
 \end{itemize}
 
 %%%%%
 \section{New Metric for Imbalanced Data:  ``Balanced Precision''}
+
+I thought this metric might be the same as scikit-learn's Precision with the \verb|average=weighted| option, but I checked all of the options, and none of them give this result.  
 
 %%%
 \subsection{Reminder of Definitions of Metrics}
@@ -162,6 +173,10 @@ Giving up here on finding some nice, concise connection between Balanced Precisi
 %%%%%
 \section{Top Twenty Features that Correlate with Fatality}
 
+Last column is the {\it balanced f1} score.
+
+\
+
 \begin{tabular}{llll}
 \verb|DR_COND_CD2| & I & DRUG USE - IMPAIRED & 0.33 \cr
 \verb|SEC_CONTRIB_FAC_CD| & L & CONDITION OF PEDESTRIAN & 0.32 \cr
@@ -184,17 +199,12 @@ Giving up here on finding some nice, concise connection between Balanced Precisi
 \verb|MOVEMENT_REASON_2| & G & VEHICLE OUT OF CONTROL, PASSING & 0.12 \cr
 \end{tabular}
 
-%%%%%
-\section{Features that do not Correlate with Fatality} 
-\begin{tabular}{lll}
-\verb|dr_cond_cd2|  & E & FATIGUED \cr
-\end{tabular}
 
 %%%
 % References
-\section{References}
-\label{sec:references}
-\printbibliography[heading=none]
+%%\section{References}
+%\label{sec:references}
+%\printbibliography[heading=none]
 
 
 %%%%%%%%%%%%%%%%%%

@@ -1,10 +1,9 @@
 \BOOKMARK [1][-]{section.1}{Accomplishments This Week}{}% 1
-\BOOKMARK [1][-]{section.2}{New Metric for Imbalanced Data: ``Balanced Precision''}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Reminder of Definitions of Metrics}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Imbalanced Data Set}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{The Problem}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.4}{Balanced Accuracy}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.5}{Balanced Precision}{section.2}% 7
-\BOOKMARK [1][-]{section.3}{Top Twenty Features that Correlate with Fatality}{}% 8
-\BOOKMARK [1][-]{section.4}{Features that do not Correlate with Fatality}{}% 9
-\BOOKMARK [1][-]{section.5}{References}{}% 10
+\BOOKMARK [1][-]{section.2}{Questions}{}% 2
+\BOOKMARK [1][-]{section.3}{New Metric for Imbalanced Data: ``Balanced Precision''}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Reminder of Definitions of Metrics}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Imbalanced Data Set}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{The Problem}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Balanced Accuracy}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{Balanced Precision}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Top Twenty Features that Correlate with Fatality}{}% 9
