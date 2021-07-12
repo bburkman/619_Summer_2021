@@ -1,12 +1,8 @@
-\BOOKMARK [1][-]{section.1}{Activities this Week}{}% 1
-\BOOKMARK [1][-]{section.2}{Scikit-Learn Code}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Average Precision}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Defining Your Own Metric}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{``Support''}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.4}{Definitions of Metrics Functions}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.5}{Adding New Metrics}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.6}{Implementation of Accuracy in base.py}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.7}{Implementation of Penalty in RandomForestClassifier}{section.2}% 9
-\BOOKMARK [1][-]{section.3}{Implementing Different Metrics in Perceptron}{}% 10
-\BOOKMARK [1][-]{section.4}{Class\137Weight}{}% 11
-\BOOKMARK [2][-]{subsection.4.1}{Models and class\137weight = "balanced" Parameter}{section.4}% 12
+\BOOKMARK [1][-]{section.1}{New Things I Explored this Week}{}% 1
+\BOOKMARK [1][-]{section.2}{Class\137Weight = "Balanced"}{}% 2
+\BOOKMARK [1][-]{section.3}{Oversampling and Undersampling}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Results for Original Dataset}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Na\357ve Random Oversampling}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Oversampling with SMOTE}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Undersampling with RandomUndersampler}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Balancing Class Weights in Decision Trees}{}% 8

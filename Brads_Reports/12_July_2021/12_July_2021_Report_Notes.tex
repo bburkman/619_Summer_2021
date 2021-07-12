@@ -1,0 +1,262 @@
+\documentclass[11pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes}
+\usepackage{pgfmath}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\setlist{noitemsep}
+\usepackage{listings}
+\lstset{language=python}
+\usepackage{makeidx}
+\usepackage{verbatim}
+\usepackage{datetime}
+
+\setlength{\pdfpageheight}{11in}
+\setlength{\textheight}{9in}
+\setlength{\voffset}{-1in}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\marginparsep}{0pt}
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparpush}{0pt}
+\setlength{\textwidth}{6.5in}
+
+\usepackage[
+	backend=biber,
+	style=alphabetic,
+	citestyle=ieee
+]{biblatex}
+\addbibresource{../../Accident_Analysis_and_Prevention/Accident_Analysis_and_Prevention.bib}
+\addbibresource{../../Other_Journals/Other_Journals.bib}
+\AtEveryBibitem{\clearfield{note}\clearfield{addendum}}
+\AtEveryCitekey{\clearfield{note}\clearfield{addendum}}
+
+
+\pagestyle{plain}
+\makeindex
+
+\title{12 July 2021 Report}
+\author{Brad Burkman}
+\newdateformat{vardate}{\THEDAY\ \monthname[\THEMONTH]\ \THEYEAR}
+\vardate
+\date{\today}
+
+\begin{document}
+\setlength{\parindent}{20pt}
+\begin{spacing}{1.2}
+\maketitle
+
+%%%%%
+
+
+%%%%%
+\tableofcontents
+
+%%%%%
+\section{Activities this Week}
+
+\begin{itemize}
+	\item 
+\end{itemize}
+
+%%%%%
+\section{Scikit-Learn Code}
+
+%%%
+\subsection{Average Precision}
+
+There's something called {\it average precision}, but it's just Precision with {\tt weighted=macro}, which is the average of the precision of random samples, I think.  It's definitely not the balanced precision I'm thinking of.  
+
+In \verb|_ranking.py|, the comments define it as  
+
+\verb|average_precision_score : Area under the precision-recall curve.|
+
+%%%
+\subsection{Defining Your Own Metric}
+
+In \verb|_scorer.py|:
+
+\begin{verbatim}
+sklearn.metrics.make_scorer(
+    score_func, 
+    greater_is_better=True,
+    needs_proba=False,
+    needs_threshold=False, **kwargs)
+\end{verbatim}
+
+%%%
+\subsection{``Support''}
+
+From imblearn.metrics:
+
+``The support is the number of occurrences of each class in \verb|y_true|.''
+
+%%%
+\subsection{Definitions of Metrics Functions}
+
+Accuracy, precision, and recall are defined in \verb|sklearn/metrics/_classification.py|.
+
+When you import it from \verb|metrics|, it looks in \verb|_classification.py|.
+
+%%%
+\subsection{Adding New Metrics}
+
+How do they do it in Imbalanced-Learn?
+
+%%% 
+\subsection{Implementation of {\it Accuracy} in base.py}
+
+A stackoverflow site implied that changing this metric from {\it accuracy} to {\it recall} would change how the model works.  In fact, it only changes how the model reports its score, not how it finds its prediction.  
+
+\
+
+In \verb|sklearn/base.py|, in \verb|class ClassifierMixin|, 
+
+\verb|"""Mixin class for all classifiers in scikit-learn."""|
+
+Here's where we can switch the metric.
+
+In the function 
+
+\verb|def score(self, X, y, sample_weight=None):|
+
+\begin{verbatim}
+from .metrics import accuracy_score
+return accuracy_score(y, self.predict(X), sample_weight=sample_weight)
+\end{verbatim}
+
+I added a print statement in this function, and it appeared exactly once when I ran each classifier, so it's only calling that for the final report.  I want to find where it calculates the loss function in each iteration of the model.  
+
+%%%
+\subsection{Implementation of Penalty in RandomForestClassifier}
+
+In \verb|metrics|, \verb|__init__.py| imports \verb|RandomForestClassifier| from \verb|_forest.py|
+
+In \verb|_forest.py|, 
+the class \verb|class RandomForestClassifier(ForestClassifier)|
+
+The actual splits in the tree are done by DecisionTreeClassifier(), which is in \verb|sklearn/tree/_classes.py|.
+
+There is a \verb|class_weights| parameter in DecisionTreeClassifier().  I need to see some examples to figure out what it does.  I tried, but didn't get anything interesting.  
+
+The important parameter may be \verb|criterion|, which has two options, gini and entropy.  
+
+\begin{verbatim}
+criterion : {"gini", "entropy"}, default="gini"
+The function to measure the quality of a split. 
+Supported criteria are "gini" for the Gini impurity
+        and "entropy" for the information gain.
+\end{verbatim}
+
+%%%%%
+\section{Implementing Different Metrics in Perceptron}
+
+\verb|sklearn -> linear_model -> __init__.py -> _perceptron.py|
+
+Perceptron is just a particular implementation of \verb|BaseSGDClassifier|.
+
+\verb|sklearn -> linear_model -> stochastic_gradient.py -> class BaseSGDClassifier|
+
+The loss function for Perceptron is called Hinge with argument \verb|(Hinge, 0,0)|.  Hinge is defined in a cpython function that is already compiled, \verb|_sgd_fast.cpython-38-darwin.so|, so I can't see how it works.  
+
+%%%%%
+\section{Class\_Weight}
+
+Made these changes in \verb|Crash_Data_06_10_2021_Attempt.ipynb|.
+
+\
+
+There's a file \verb|test_class_weight.py| that illustrates what \verb|class_weights| does.  
+
+\
+
+Many models have a \verb|class_weight| parameter, some don't.  
+
+%%%
+\subsection{Models and {\tt class\_weight = "balanced"} Parameter}
+
+In the table below, 
+
+\begin{itemize}
+	\item \verb|cw| tells whether the model has a \verb|class_weight| parameter.
+	\item PB tells whether using the \verb|class_weight| parameter gives a significant performance boost.  
+	\item bf1 is the balanced f1 score.
+	\item Two bf1 scores indicates without $\to$ with \verb|class_weight = "balanced"|
+	\item MLPClassifier gets this good result with these parameters:
+	
+	\verb|MLPClassifier(alpha=1e-05, hidden_layer_sizes=(5, 2), random_state=1, solver='lbfgs')|
+\end{itemize}
+
+
+\begin{tabular}{llllrp{1.5in}}
+	Type & \verb|cw|  & Model & PB & bf1 & Comments \cr \hline
+	Ensemble 
+		& No & AdaBoostClassifier && 37\% \cr
+		& No & BaggingClassifier && 48\% \cr
+		& Yes & ExtraTreesClassifier & Yes & 5 $\to$ 15\% \cr
+		& No & GradientBoostingClassifier && 51\% \cr
+		& Yes & RandomForestClassifier & Yes & nan $\to$ 8\% \cr
+		&  & StackingClassifier && & Stacks several classifiers together.  Not its own classifier.\cr
+		&  & VotingClassifier &&&  Same \cr
+		\cr
+	Linear
+		& Yes & LogisticRegression & Yes & 47 $\to$ 89\% \cr
+		& Yes & Perceptron & Yes & 80 $\to$ 88\% \cr
+		& Yes & RidgeClassifier & YES & nan $\to$ 89\% \cr
+		& Yes & RidgeClassifierCV & YES & nan $\to$ 89\% \cr
+		& Yes & SGDClassifier & YES & 37 $\to$ 90\% \cr
+		\cr
+	Naive Bayes 
+		& No &  GaussianNB && 66\% \cr
+		\cr
+	Neighbors
+		& No & KNeighborsClassifier && 8\% \cr
+		& No & \multicolumn{3}{l}{ KNeighborsClassifier(n\_neighbors=3)} \ 6\% \cr
+		& No & RadiusNeighborsClassifier && & Error:  No neighbors found within radius.  Perhaps not applicable for binary? \cr
+		\cr
+	Neural Network 
+		& No & MLPClassifier && 63\% \cr
+		\cr
+	SVM
+		& Yes & LinearSVC & YES & 34 $\to$ 86\% \cr
+		& Yes & NuSVC & && ``Specified nu is infeasible.'' \cr
+		& Yes & SVC & Yes & nan $\to$ 72\% \cr
+		\cr
+	Tree 
+		& Yes & DecisionTreeClassifier & NO & 57 $\to$ 48\% \cr
+		& Yes & ExtraTreeClassifier & NO & 31 $\to$ 27\% \cr
+\end{tabular}
+
+%%%
+% References
+%%\section{References}
+%\label{sec:references}
+%\printbibliography[heading=none]
+
+
+%%%%%%%%%%%%%%%%%%
+% Index
+\clearpage
+\addcontentsline{toc}{section}{Index}
+\printindex
+
+%%%%%%%%%%%%%%%%
+\end{spacing}
+\end{document}
+
+%%%%%%%%%%%%
+% Useful tools
+%%%%%%%%%
+
+\begin{lstlisting}
+Put your code here.
+\end{lstlisting}
+
+\lstinputlisting[language=python]{source_filename.py}
+
+
